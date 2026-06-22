@@ -1,2 +1,0 @@
-[console_scripts]
-ybimu_driver = imu_ros2_device.ybimu_driver:main

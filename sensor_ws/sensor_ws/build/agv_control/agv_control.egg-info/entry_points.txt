@@ -1,3 +1,0 @@
-[console_scripts]
-agv_bridge = agv_control.agv_bridge:main
-keyboard_teleop = agv_control.keyboard_teleop:main

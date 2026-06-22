@@ -1,3 +1,0 @@
-[console_scripts]
-command_odom = sensor_bringup.command_odom:main
-imu_marker_viz = sensor_bringup.imu_marker_viz:main

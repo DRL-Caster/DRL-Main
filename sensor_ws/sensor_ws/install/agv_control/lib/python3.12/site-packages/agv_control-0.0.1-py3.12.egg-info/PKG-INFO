@@ -1,7 +1,0 @@
-Metadata-Version: 2.1
-Name: agv-control
-Version: 0.0.1
-Summary: Discrete Ethernet AGV control bridge and keyboard teleop.
-Maintainer: kenbio
-Maintainer-email: kenbio@example.com
-License: MIT

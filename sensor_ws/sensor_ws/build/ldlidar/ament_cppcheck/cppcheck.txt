@@ -1,8 +1,0 @@
--- run_test.py: invoking following command in '/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar':
- - /opt/ros/jazzy/bin/ament_cppcheck --xunit-file /home/kenbio/sensor_ws/build/ldlidar/test_results/ldlidar/cppcheck.xunit.xml --include_dirs /home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/include /home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/../ldlidar_driver/include/core /home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/../ldlidar_driver/include/dataprocess /home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/../ldlidar_driver/include/filter /home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/../ldlidar_driver/include/logger /home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/../ldlidar_driver/include/networkcom /home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/../ldlidar_driver/include/serialcom
-
-cppcheck 2.13.0 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
-
-
--- run_test.py: return code 0
--- run_test.py: verify result file '/home/kenbio/sensor_ws/build/ldlidar/test_results/ldlidar/cppcheck.xunit.xml'

@@ -1,0 +1,12 @@
+# colcon build artifacts
+build/
+install/
+log/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Claude local settings
+.claude/settings.local.json
