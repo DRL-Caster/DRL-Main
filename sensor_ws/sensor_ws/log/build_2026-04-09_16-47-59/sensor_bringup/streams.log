@@ -1,0 +1,27 @@
+[0.304s] Invoking command in '/home/kenbio/sensor_ws/src/sensor_bringup': AMENT_PREFIX_PATH=/home/kenbio/sensor_ws/install/ldlidar:/home/kenbio/sensor_ws/install/imu_ros2_device:/home/kenbio/sensor_ws/install/agv_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kenbio/sensor_ws/install/ldlidar:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kenbio/sensor_ws/build/sensor_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kenbio/sensor_ws/install/sensor_bringup/lib/python3.12/site-packages:/home/kenbio/sensor_ws/install/imu_ros2_device/lib/python3.12/site-packages:/home/kenbio/sensor_ws/install/agv_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_bringup build --build-base /home/kenbio/sensor_ws/build/sensor_bringup/build install --record /home/kenbio/sensor_ws/build/sensor_bringup/install.log --single-version-externally-managed install_data
+[0.396s] running egg_info
+[0.402s] writing ../../build/sensor_bringup/sensor_bringup.egg-info/PKG-INFO
+[0.402s] writing dependency_links to ../../build/sensor_bringup/sensor_bringup.egg-info/dependency_links.txt
+[0.402s] writing entry points to ../../build/sensor_bringup/sensor_bringup.egg-info/entry_points.txt
+[0.402s] writing requirements to ../../build/sensor_bringup/sensor_bringup.egg-info/requires.txt
+[0.402s] writing top-level names to ../../build/sensor_bringup/sensor_bringup.egg-info/top_level.txt
+[0.413s] reading manifest file '../../build/sensor_bringup/sensor_bringup.egg-info/SOURCES.txt'
+[0.414s] writing manifest file '../../build/sensor_bringup/sensor_bringup.egg-info/SOURCES.txt'
+[0.414s] running build
+[0.414s] running build_py
+[0.414s] copying sensor_bringup/imu_marker_viz.py -> /home/kenbio/sensor_ws/build/sensor_bringup/build/lib/sensor_bringup
+[0.414s] running install
+[0.417s] running install_lib
+[0.422s] copying /home/kenbio/sensor_ws/build/sensor_bringup/build/lib/sensor_bringup/imu_marker_viz.py -> /home/kenbio/sensor_ws/install/sensor_bringup/lib/python3.12/site-packages/sensor_bringup
+[0.423s] byte-compiling /home/kenbio/sensor_ws/install/sensor_bringup/lib/python3.12/site-packages/sensor_bringup/imu_marker_viz.py to imu_marker_viz.cpython-312.pyc
+[0.423s] running install_data
+[0.423s] copying package.xml -> /home/kenbio/sensor_ws/install/sensor_bringup/share/sensor_bringup
+[0.423s] copying launch/sensor_bringup.launch.py -> /home/kenbio/sensor_ws/install/sensor_bringup/share/sensor_bringup/launch
+[0.423s] copying rviz/sensor_bringup.rviz -> /home/kenbio/sensor_ws/install/sensor_bringup/share/sensor_bringup/rviz
+[0.423s] running install_egg_info
+[0.430s] removing '/home/kenbio/sensor_ws/install/sensor_bringup/lib/python3.12/site-packages/sensor_bringup-0.0.1-py3.12.egg-info' (and everything under it)
+[0.430s] Copying ../../build/sensor_bringup/sensor_bringup.egg-info to /home/kenbio/sensor_ws/install/sensor_bringup/lib/python3.12/site-packages/sensor_bringup-0.0.1-py3.12.egg-info
+[0.430s] running install_scripts
+[0.473s] Installing imu_marker_viz script to /home/kenbio/sensor_ws/install/sensor_bringup/lib/sensor_bringup
+[0.473s] writing list of installed files to '/home/kenbio/sensor_ws/build/sensor_bringup/install.log'
+[0.487s] Invoked command in '/home/kenbio/sensor_ws/src/sensor_bringup' returned '0': AMENT_PREFIX_PATH=/home/kenbio/sensor_ws/install/ldlidar:/home/kenbio/sensor_ws/install/imu_ros2_device:/home/kenbio/sensor_ws/install/agv_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kenbio/sensor_ws/install/ldlidar:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kenbio/sensor_ws/build/sensor_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kenbio/sensor_ws/install/sensor_bringup/lib/python3.12/site-packages:/home/kenbio/sensor_ws/install/imu_ros2_device/lib/python3.12/site-packages:/home/kenbio/sensor_ws/install/agv_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_bringup build --build-base /home/kenbio/sensor_ws/build/sensor_bringup/build install --record /home/kenbio/sensor_ws/build/sensor_bringup/install.log --single-version-externally-managed install_data

@@ -1,0 +1,17 @@
+-- run_test.py: invoking following command in '/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar':
+ - /opt/ros/jazzy/bin/ament_lint_cmake --xunit-file /home/kenbio/sensor_ws/build/ldlidar/test_results/ldlidar/lint_cmake.xunit.xml
+
+CMakeLists.txt:53: Line ends in whitespace [whitespace/eol]
+CMakeLists.txt:54: Line ends in whitespace [whitespace/eol]
+CMakeLists.txt:55: Line ends in whitespace [whitespace/eol]
+CMakeLists.txt:56: Line ends in whitespace [whitespace/eol]
+CMakeLists.txt:57: Line ends in whitespace [whitespace/eol]
+CMakeLists.txt:58: Line ends in whitespace [whitespace/eol]
+CMakeLists.txt:59: Line ends in whitespace [whitespace/eol]
+
+
+7 errors
+
+
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/kenbio/sensor_ws/build/ldlidar/test_results/ldlidar/lint_cmake.xunit.xml'

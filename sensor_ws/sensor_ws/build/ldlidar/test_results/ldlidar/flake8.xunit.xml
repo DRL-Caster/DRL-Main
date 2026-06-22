@@ -1,0 +1,2042 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="ldlidar.flake8"
+  tests="336"
+  errors="0"
+  failures="336"
+  time="0.073"
+>
+  <testcase
+    name="Q001 (./launch/ld06.launch.py:5:1)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="Single quote multiline found but double quotes preferred:&#10;'''&#10;Parameter Description:&#10;---&#10;- Set laser scan directon: &#10;  1. Set counterclockwise, example: {'laser_scan_dir': True}&#10;  2. Set clockwise,        example: {'laser_scan_dir': False}&#10;- Angle crop setting, Mask data within the set angle range:&#10;  1. Enable angle crop fuction:&#10;    1.1. enable angle crop,  example: {'enable_angle_crop_func': True}&#10;    1.2. disable angle crop, example: {'enable_angle_crop_func': False}&#10;  2. Angle cropping interval setting:&#10;  - The distance and intensity data within the set angle range will be set to 0.&#10;  - angle &gt;= 'angle_crop_min' and angle &lt;= 'angle_crop_max' which is [angle_crop_min, angle_crop_max], unit is degress.&#10;    example:&#10;      {'angle_crop_min': 135.0}&#10;      {'angle_crop_max': 225.0}&#10;      which is [135.0, 225.0], angle unit is degress.&#10;- Serial port communication mode or network port communication mode configuration&#10;  --enable serial communication mode:&#10;  {'enable_serial_or_network_communication': True}&#10;  --enable network communication mode:&#10;  {'enable_serial_or_network_communication': False}&#10;'''&#10;"/>
+  </testcase>
+  <testcase
+    name="W291 (./launch/ld06.launch.py:8:27)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="trailing whitespace:&#10;'''&#10;Parameter Description:&#10;---&#10;- Set laser scan directon: &#10;  1. Set counterclockwise, example: {'laser_scan_dir': True}&#10;  2. Set clockwise,        example: {'laser_scan_dir': False}&#10;- Angle crop setting, Mask data within the set angle range:&#10;  1. Enable angle crop fuction:&#10;    1.1. enable angle crop,  example: {'enable_angle_crop_func': True}&#10;    1.2. disable angle crop, example: {'enable_angle_crop_func': False}&#10;  2. Angle cropping interval setting:&#10;  - The distance and intensity data within the set angle range will be set to 0.&#10;  - angle &gt;= 'angle_crop_min' and angle &lt;= 'angle_crop_max' which is [angle_crop_min, angle_crop_max], unit is degress.&#10;    example:&#10;      {'angle_crop_min': 135.0}&#10;      {'angle_crop_max': 225.0}&#10;      which is [135.0, 225.0], angle unit is degress.&#10;- Serial port communication mode or network port communication mode configuration&#10;  --enable serial communication mode:&#10;  {'enable_serial_or_network_communication': True}&#10;  --enable network communication mode:&#10;  {'enable_serial_or_network_communication': False}&#10;'''&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./launch/ld06.launch.py:17:100)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="line too long (119 &gt; 99 characters):&#10;'''&#10;Parameter Description:&#10;---&#10;- Set laser scan directon: &#10;  1. Set counterclockwise, example: {'laser_scan_dir': True}&#10;  2. Set clockwise,        example: {'laser_scan_dir': False}&#10;- Angle crop setting, Mask data within the set angle range:&#10;  1. Enable angle crop fuction:&#10;    1.1. enable angle crop,  example: {'enable_angle_crop_func': True}&#10;    1.2. disable angle crop, example: {'enable_angle_crop_func': False}&#10;  2. Angle cropping interval setting:&#10;  - The distance and intensity data within the set angle range will be set to 0.&#10;  - angle &gt;= 'angle_crop_min' and angle &lt;= 'angle_crop_max' which is [angle_crop_min, angle_crop_max], unit is degress.&#10;    example:&#10;      {'angle_crop_min': 135.0}&#10;      {'angle_crop_max': 225.0}&#10;      which is [135.0, 225.0], angle unit is degress.&#10;- Serial port communication mode or network port communication mode configuration&#10;  --enable serial communication mode:&#10;  {'enable_serial_or_network_communication': True}&#10;  --enable network communication mode:&#10;  {'enable_serial_or_network_communication': False}&#10;'''&#10;"/>
+  </testcase>
+  <testcase
+    name="E302 (./launch/ld06.launch.py:29:1)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="expected 2 blank lines, found 1:&#10;def generate_launch_description():&#10;"/>
+  </testcase>
+  <testcase
+    name="E114 (./launch/ld06.launch.py:30:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4 (comment):&#10;  # LDROBOT LiDAR publisher node&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/ld06.launch.py:31:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ldlidar_node = Node(&#10;"/>
+  </testcase>
+  <testcase
+    name="E114 (./launch/ld06.launch.py:55:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4 (comment):&#10;  # base_link to base_laser tf node&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/ld06.launch.py:56:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  base_link_to_laser_tf_node = Node(&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/ld06.launch.py:60:19)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/ld06.launch.py:60:23)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/ld06.launch.py:60:30)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/ld06.launch.py:60:34)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/ld06.launch.py:60:38)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/ld06.launch.py:60:42)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/ld06.launch.py:60:54)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E303 (./launch/ld06.launch.py:64:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="too many blank lines (2):&#10;  # Define LaunchDescription variable&#10;"/>
+  </testcase>
+  <testcase
+    name="E114 (./launch/ld06.launch.py:64:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4 (comment):&#10;  # Define LaunchDescription variable&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/ld06.launch.py:65:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ld = LaunchDescription()&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/ld06.launch.py:67:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ld.add_action(ldlidar_node)&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/ld06.launch.py:68:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ld.add_action(base_link_to_laser_tf_node)&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/ld06.launch.py:70:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  return ld"/>
+  </testcase>
+  <testcase
+    name="W292 (./launch/ld06.launch.py:70:12)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="no newline at end of file:&#10;  return ld"/>
+  </testcase>
+  <testcase
+    name="Q001 (./launch/ld06net.launch.py:5:1)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="Single quote multiline found but double quotes preferred:&#10;'''&#10;Parameter Description:&#10;---&#10;- Set laser scan directon: &#10;  1. Set counterclockwise, example: {'laser_scan_dir': True}&#10;  2. Set clockwise,        example: {'laser_scan_dir': False}&#10;- Angle crop setting, Mask data within the set angle range:&#10;  1. Enable angle crop fuction:&#10;    1.1. enable angle crop,  example: {'enable_angle_crop_func': True}&#10;    1.2. disable angle crop, example: {'enable_angle_crop_func': False}&#10;  2. Angle cropping interval setting:&#10;  - The distance and intensity data within the set angle range will be set to 0.&#10;  - angle &gt;= 'angle_crop_min' and angle &lt;= 'angle_crop_max' which is [angle_crop_min, angle_crop_max], unit is degress.&#10;    example:&#10;      {'angle_crop_min': 135.0}&#10;      {'angle_crop_max': 225.0}&#10;      which is [135.0, 225.0], angle unit is degress.&#10;- Serial port communication mode or network port communication mode configuration&#10;  --enable serial communication mode:&#10;  {'enable_serial_or_network_communication': True}&#10;  --enable network communication mode:&#10;  {'enable_serial_or_network_communication': False}&#10;'''&#10;"/>
+  </testcase>
+  <testcase
+    name="W291 (./launch/ld06net.launch.py:8:27)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="trailing whitespace:&#10;'''&#10;Parameter Description:&#10;---&#10;- Set laser scan directon: &#10;  1. Set counterclockwise, example: {'laser_scan_dir': True}&#10;  2. Set clockwise,        example: {'laser_scan_dir': False}&#10;- Angle crop setting, Mask data within the set angle range:&#10;  1. Enable angle crop fuction:&#10;    1.1. enable angle crop,  example: {'enable_angle_crop_func': True}&#10;    1.2. disable angle crop, example: {'enable_angle_crop_func': False}&#10;  2. Angle cropping interval setting:&#10;  - The distance and intensity data within the set angle range will be set to 0.&#10;  - angle &gt;= 'angle_crop_min' and angle &lt;= 'angle_crop_max' which is [angle_crop_min, angle_crop_max], unit is degress.&#10;    example:&#10;      {'angle_crop_min': 135.0}&#10;      {'angle_crop_max': 225.0}&#10;      which is [135.0, 225.0], angle unit is degress.&#10;- Serial port communication mode or network port communication mode configuration&#10;  --enable serial communication mode:&#10;  {'enable_serial_or_network_communication': True}&#10;  --enable network communication mode:&#10;  {'enable_serial_or_network_communication': False}&#10;'''&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./launch/ld06net.launch.py:17:100)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="line too long (119 &gt; 99 characters):&#10;'''&#10;Parameter Description:&#10;---&#10;- Set laser scan directon: &#10;  1. Set counterclockwise, example: {'laser_scan_dir': True}&#10;  2. Set clockwise,        example: {'laser_scan_dir': False}&#10;- Angle crop setting, Mask data within the set angle range:&#10;  1. Enable angle crop fuction:&#10;    1.1. enable angle crop,  example: {'enable_angle_crop_func': True}&#10;    1.2. disable angle crop, example: {'enable_angle_crop_func': False}&#10;  2. Angle cropping interval setting:&#10;  - The distance and intensity data within the set angle range will be set to 0.&#10;  - angle &gt;= 'angle_crop_min' and angle &lt;= 'angle_crop_max' which is [angle_crop_min, angle_crop_max], unit is degress.&#10;    example:&#10;      {'angle_crop_min': 135.0}&#10;      {'angle_crop_max': 225.0}&#10;      which is [135.0, 225.0], angle unit is degress.&#10;- Serial port communication mode or network port communication mode configuration&#10;  --enable serial communication mode:&#10;  {'enable_serial_or_network_communication': True}&#10;  --enable network communication mode:&#10;  {'enable_serial_or_network_communication': False}&#10;'''&#10;"/>
+  </testcase>
+  <testcase
+    name="E302 (./launch/ld06net.launch.py:29:1)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="expected 2 blank lines, found 1:&#10;def generate_launch_description():&#10;"/>
+  </testcase>
+  <testcase
+    name="E114 (./launch/ld06net.launch.py:30:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4 (comment):&#10;  # LDROBOT LiDAR publisher node&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/ld06net.launch.py:31:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ldlidar_node = Node(&#10;"/>
+  </testcase>
+  <testcase
+    name="E262 (./launch/ld06net.launch.py:41:42)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="inline comment should start with '# ':&#10;        {'device_ip': '192.168.1.200'},  #雷达源ip&#10;"/>
+  </testcase>
+  <testcase
+    name="E262 (./launch/ld06net.launch.py:43:43)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="inline comment should start with '# ':&#10;        {'difop_ip': '192.168.1.102'},    #目标ip&#10;"/>
+  </testcase>
+  <testcase
+    name="E114 (./launch/ld06net.launch.py:56:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4 (comment):&#10;  # base_link to base_laser tf node&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/ld06net.launch.py:57:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  base_link_to_laser_tf_node = Node(&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/ld06net.launch.py:61:19)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/ld06net.launch.py:61:23)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/ld06net.launch.py:61:30)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/ld06net.launch.py:61:34)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/ld06net.launch.py:61:38)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/ld06net.launch.py:61:42)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/ld06net.launch.py:61:54)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E303 (./launch/ld06net.launch.py:65:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="too many blank lines (2):&#10;  # Define LaunchDescription variable&#10;"/>
+  </testcase>
+  <testcase
+    name="E114 (./launch/ld06net.launch.py:65:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4 (comment):&#10;  # Define LaunchDescription variable&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/ld06net.launch.py:66:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ld = LaunchDescription()&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/ld06net.launch.py:68:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ld.add_action(ldlidar_node)&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/ld06net.launch.py:69:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ld.add_action(base_link_to_laser_tf_node)&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/ld06net.launch.py:71:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  return ld"/>
+  </testcase>
+  <testcase
+    name="W292 (./launch/ld06net.launch.py:71:12)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="no newline at end of file:&#10;  return ld"/>
+  </testcase>
+  <testcase
+    name="Q001 (./launch/ld19.launch.py:5:1)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="Single quote multiline found but double quotes preferred:&#10;'''&#10;Parameter Description:&#10;---&#10;- Set laser scan directon: &#10;  1. Set counterclockwise, example: {'laser_scan_dir': True}&#10;  2. Set clockwise,        example: {'laser_scan_dir': False}&#10;- Angle crop setting, Mask data within the set angle range:&#10;  1. Enable angle crop fuction:&#10;    1.1. enable angle crop,  example: {'enable_angle_crop_func': True}&#10;    1.2. disable angle crop, example: {'enable_angle_crop_func': False}&#10;  2. Angle cropping interval setting:&#10;  - The distance and intensity data within the set angle range will be set to 0.&#10;  - angle &gt;= 'angle_crop_min' and angle &lt;= 'angle_crop_max' which is [angle_crop_min, angle_crop_max], unit is degress.&#10;    example:&#10;      {'angle_crop_min': 135.0}&#10;      {'angle_crop_max': 225.0}&#10;      which is [135.0, 225.0], angle unit is degress.&#10;- Serial port communication mode or network port communication mode configuration&#10;  --enable serial communication mode:&#10;  {'enable_serial_or_network_communication': True}&#10;  --enable network communication mode:&#10;  {'enable_serial_or_network_communication': False}&#10;'''&#10;"/>
+  </testcase>
+  <testcase
+    name="W291 (./launch/ld19.launch.py:8:27)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="trailing whitespace:&#10;'''&#10;Parameter Description:&#10;---&#10;- Set laser scan directon: &#10;  1. Set counterclockwise, example: {'laser_scan_dir': True}&#10;  2. Set clockwise,        example: {'laser_scan_dir': False}&#10;- Angle crop setting, Mask data within the set angle range:&#10;  1. Enable angle crop fuction:&#10;    1.1. enable angle crop,  example: {'enable_angle_crop_func': True}&#10;    1.2. disable angle crop, example: {'enable_angle_crop_func': False}&#10;  2. Angle cropping interval setting:&#10;  - The distance and intensity data within the set angle range will be set to 0.&#10;  - angle &gt;= 'angle_crop_min' and angle &lt;= 'angle_crop_max' which is [angle_crop_min, angle_crop_max], unit is degress.&#10;    example:&#10;      {'angle_crop_min': 135.0}&#10;      {'angle_crop_max': 225.0}&#10;      which is [135.0, 225.0], angle unit is degress.&#10;- Serial port communication mode or network port communication mode configuration&#10;  --enable serial communication mode:&#10;  {'enable_serial_or_network_communication': True}&#10;  --enable network communication mode:&#10;  {'enable_serial_or_network_communication': False}&#10;'''&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./launch/ld19.launch.py:17:100)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="line too long (119 &gt; 99 characters):&#10;'''&#10;Parameter Description:&#10;---&#10;- Set laser scan directon: &#10;  1. Set counterclockwise, example: {'laser_scan_dir': True}&#10;  2. Set clockwise,        example: {'laser_scan_dir': False}&#10;- Angle crop setting, Mask data within the set angle range:&#10;  1. Enable angle crop fuction:&#10;    1.1. enable angle crop,  example: {'enable_angle_crop_func': True}&#10;    1.2. disable angle crop, example: {'enable_angle_crop_func': False}&#10;  2. Angle cropping interval setting:&#10;  - The distance and intensity data within the set angle range will be set to 0.&#10;  - angle &gt;= 'angle_crop_min' and angle &lt;= 'angle_crop_max' which is [angle_crop_min, angle_crop_max], unit is degress.&#10;    example:&#10;      {'angle_crop_min': 135.0}&#10;      {'angle_crop_max': 225.0}&#10;      which is [135.0, 225.0], angle unit is degress.&#10;- Serial port communication mode or network port communication mode configuration&#10;  --enable serial communication mode:&#10;  {'enable_serial_or_network_communication': True}&#10;  --enable network communication mode:&#10;  {'enable_serial_or_network_communication': False}&#10;'''&#10;"/>
+  </testcase>
+  <testcase
+    name="E302 (./launch/ld19.launch.py:29:1)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="expected 2 blank lines, found 1:&#10;def generate_launch_description():&#10;"/>
+  </testcase>
+  <testcase
+    name="E114 (./launch/ld19.launch.py:30:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4 (comment):&#10;  # LDROBOT LiDAR publisher node&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/ld19.launch.py:31:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ldlidar_node = Node(&#10;"/>
+  </testcase>
+  <testcase
+    name="E114 (./launch/ld19.launch.py:53:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4 (comment):&#10;  # base_link to base_laser tf node&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/ld19.launch.py:54:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  base_link_to_laser_tf_node = Node(&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/ld19.launch.py:58:19)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','base_laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/ld19.launch.py:58:23)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','base_laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/ld19.launch.py:58:30)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','base_laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/ld19.launch.py:58:34)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','base_laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/ld19.launch.py:58:38)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','base_laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/ld19.launch.py:58:42)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','base_laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/ld19.launch.py:58:54)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','base_laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E303 (./launch/ld19.launch.py:62:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="too many blank lines (2):&#10;  # Define LaunchDescription variable&#10;"/>
+  </testcase>
+  <testcase
+    name="E114 (./launch/ld19.launch.py:62:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4 (comment):&#10;  # Define LaunchDescription variable&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/ld19.launch.py:63:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ld = LaunchDescription()&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/ld19.launch.py:65:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ld.add_action(ldlidar_node)&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/ld19.launch.py:66:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ld.add_action(base_link_to_laser_tf_node)&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/ld19.launch.py:68:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  return ld"/>
+  </testcase>
+  <testcase
+    name="W292 (./launch/ld19.launch.py:68:12)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="no newline at end of file:&#10;  return ld"/>
+  </testcase>
+  <testcase
+    name="Q001 (./launch/stl06n.launch.py:5:1)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="Single quote multiline found but double quotes preferred:&#10;'''&#10;Parameter Description:&#10;---&#10;- Set laser scan directon: &#10;  1. Set counterclockwise, example: {'laser_scan_dir': True}&#10;  2. Set clockwise,        example: {'laser_scan_dir': False}&#10;- Angle crop setting, Mask data within the set angle range:&#10;  1. Enable angle crop fuction:&#10;    1.1. enable angle crop,  example: {'enable_angle_crop_func': True}&#10;    1.2. disable angle crop, example: {'enable_angle_crop_func': False}&#10;  2. Angle cropping interval setting:&#10;  - The distance and intensity data within the set angle range will be set to 0.&#10;  - angle &gt;= 'angle_crop_min' and angle &lt;= 'angle_crop_max' which is [angle_crop_min, angle_crop_max], unit is degress.&#10;    example:&#10;      {'angle_crop_min': 135.0}&#10;      {'angle_crop_max': 225.0}&#10;      which is [135.0, 225.0], angle unit is degress.&#10;- Serial port communication mode or network port communication mode configuration&#10;  --enable serial communication mode:&#10;  {'enable_serial_or_network_communication': True}&#10;  --enable network communication mode:&#10;  {'enable_serial_or_network_communication': False}&#10;'''&#10;"/>
+  </testcase>
+  <testcase
+    name="W291 (./launch/stl06n.launch.py:8:27)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="trailing whitespace:&#10;'''&#10;Parameter Description:&#10;---&#10;- Set laser scan directon: &#10;  1. Set counterclockwise, example: {'laser_scan_dir': True}&#10;  2. Set clockwise,        example: {'laser_scan_dir': False}&#10;- Angle crop setting, Mask data within the set angle range:&#10;  1. Enable angle crop fuction:&#10;    1.1. enable angle crop,  example: {'enable_angle_crop_func': True}&#10;    1.2. disable angle crop, example: {'enable_angle_crop_func': False}&#10;  2. Angle cropping interval setting:&#10;  - The distance and intensity data within the set angle range will be set to 0.&#10;  - angle &gt;= 'angle_crop_min' and angle &lt;= 'angle_crop_max' which is [angle_crop_min, angle_crop_max], unit is degress.&#10;    example:&#10;      {'angle_crop_min': 135.0}&#10;      {'angle_crop_max': 225.0}&#10;      which is [135.0, 225.0], angle unit is degress.&#10;- Serial port communication mode or network port communication mode configuration&#10;  --enable serial communication mode:&#10;  {'enable_serial_or_network_communication': True}&#10;  --enable network communication mode:&#10;  {'enable_serial_or_network_communication': False}&#10;'''&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./launch/stl06n.launch.py:17:100)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="line too long (119 &gt; 99 characters):&#10;'''&#10;Parameter Description:&#10;---&#10;- Set laser scan directon: &#10;  1. Set counterclockwise, example: {'laser_scan_dir': True}&#10;  2. Set clockwise,        example: {'laser_scan_dir': False}&#10;- Angle crop setting, Mask data within the set angle range:&#10;  1. Enable angle crop fuction:&#10;    1.1. enable angle crop,  example: {'enable_angle_crop_func': True}&#10;    1.2. disable angle crop, example: {'enable_angle_crop_func': False}&#10;  2. Angle cropping interval setting:&#10;  - The distance and intensity data within the set angle range will be set to 0.&#10;  - angle &gt;= 'angle_crop_min' and angle &lt;= 'angle_crop_max' which is [angle_crop_min, angle_crop_max], unit is degress.&#10;    example:&#10;      {'angle_crop_min': 135.0}&#10;      {'angle_crop_max': 225.0}&#10;      which is [135.0, 225.0], angle unit is degress.&#10;- Serial port communication mode or network port communication mode configuration&#10;  --enable serial communication mode:&#10;  {'enable_serial_or_network_communication': True}&#10;  --enable network communication mode:&#10;  {'enable_serial_or_network_communication': False}&#10;'''&#10;"/>
+  </testcase>
+  <testcase
+    name="E302 (./launch/stl06n.launch.py:29:1)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="expected 2 blank lines, found 1:&#10;def generate_launch_description():&#10;"/>
+  </testcase>
+  <testcase
+    name="E114 (./launch/stl06n.launch.py:30:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4 (comment):&#10;  # LDROBOT LiDAR publisher node&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/stl06n.launch.py:31:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ldlidar_node = Node(&#10;"/>
+  </testcase>
+  <testcase
+    name="E262 (./launch/stl06n.launch.py:45:41)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="inline comment should start with '# ':&#10;        {'laser_scan_dir': False},      #False:雷达倒装  True:雷达正装&#10;"/>
+  </testcase>
+  <testcase
+    name="E114 (./launch/stl06n.launch.py:55:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4 (comment):&#10;  # base_link to base_laser tf node&#10;"/>
+  </testcase>
+  <testcase
+    name="F841 (./launch/stl06n.launch.py:56:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="local variable 'base_link_to_laser_tf_node' is assigned to but never used:&#10;  base_link_to_laser_tf_node = Node(&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/stl06n.launch.py:56:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  base_link_to_laser_tf_node = Node(&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/stl06n.launch.py:60:19)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/stl06n.launch.py:60:23)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/stl06n.launch.py:60:30)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/stl06n.launch.py:60:34)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/stl06n.launch.py:60:38)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/stl06n.launch.py:60:42)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/stl06n.launch.py:60:54)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E303 (./launch/stl06n.launch.py:64:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="too many blank lines (2):&#10;  # Define LaunchDescription variable&#10;"/>
+  </testcase>
+  <testcase
+    name="E114 (./launch/stl06n.launch.py:64:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4 (comment):&#10;  # Define LaunchDescription variable&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/stl06n.launch.py:65:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ld = LaunchDescription()&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/stl06n.launch.py:67:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ld.add_action(ldlidar_node)&#10;"/>
+  </testcase>
+  <testcase
+    name="E114 (./launch/stl06n.launch.py:68:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4 (comment):&#10;  # ld.add_action(base_link_to_laser_tf_node)&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/stl06n.launch.py:70:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  return ld&#10;"/>
+  </testcase>
+  <testcase
+    name="Q001 (./launch/stl06nnet.launch.py:5:1)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="Single quote multiline found but double quotes preferred:&#10;'''&#10;Parameter Description:&#10;---&#10;- Set laser scan directon: &#10;  1. Set counterclockwise, example: {'laser_scan_dir': True}&#10;  2. Set clockwise,        example: {'laser_scan_dir': False}&#10;- Angle crop setting, Mask data within the set angle range:&#10;  1. Enable angle crop fuction:&#10;    1.1. enable angle crop,  example: {'enable_angle_crop_func': True}&#10;    1.2. disable angle crop, example: {'enable_angle_crop_func': False}&#10;  2. Angle cropping interval setting:&#10;  - The distance and intensity data within the set angle range will be set to 0.&#10;  - angle &gt;= 'angle_crop_min' and angle &lt;= 'angle_crop_max' which is [angle_crop_min, angle_crop_max], unit is degress.&#10;    example:&#10;      {'angle_crop_min': 135.0}&#10;      {'angle_crop_max': 225.0}&#10;      which is [135.0, 225.0], angle unit is degress.&#10;- Serial port communication mode or network port communication mode configuration&#10;  --enable serial communication mode:&#10;  {'enable_serial_or_network_communication': True}&#10;  --enable network communication mode:&#10;  {'enable_serial_or_network_communication': False}&#10;'''&#10;"/>
+  </testcase>
+  <testcase
+    name="W291 (./launch/stl06nnet.launch.py:8:27)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="trailing whitespace:&#10;'''&#10;Parameter Description:&#10;---&#10;- Set laser scan directon: &#10;  1. Set counterclockwise, example: {'laser_scan_dir': True}&#10;  2. Set clockwise,        example: {'laser_scan_dir': False}&#10;- Angle crop setting, Mask data within the set angle range:&#10;  1. Enable angle crop fuction:&#10;    1.1. enable angle crop,  example: {'enable_angle_crop_func': True}&#10;    1.2. disable angle crop, example: {'enable_angle_crop_func': False}&#10;  2. Angle cropping interval setting:&#10;  - The distance and intensity data within the set angle range will be set to 0.&#10;  - angle &gt;= 'angle_crop_min' and angle &lt;= 'angle_crop_max' which is [angle_crop_min, angle_crop_max], unit is degress.&#10;    example:&#10;      {'angle_crop_min': 135.0}&#10;      {'angle_crop_max': 225.0}&#10;      which is [135.0, 225.0], angle unit is degress.&#10;- Serial port communication mode or network port communication mode configuration&#10;  --enable serial communication mode:&#10;  {'enable_serial_or_network_communication': True}&#10;  --enable network communication mode:&#10;  {'enable_serial_or_network_communication': False}&#10;'''&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./launch/stl06nnet.launch.py:17:100)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="line too long (119 &gt; 99 characters):&#10;'''&#10;Parameter Description:&#10;---&#10;- Set laser scan directon: &#10;  1. Set counterclockwise, example: {'laser_scan_dir': True}&#10;  2. Set clockwise,        example: {'laser_scan_dir': False}&#10;- Angle crop setting, Mask data within the set angle range:&#10;  1. Enable angle crop fuction:&#10;    1.1. enable angle crop,  example: {'enable_angle_crop_func': True}&#10;    1.2. disable angle crop, example: {'enable_angle_crop_func': False}&#10;  2. Angle cropping interval setting:&#10;  - The distance and intensity data within the set angle range will be set to 0.&#10;  - angle &gt;= 'angle_crop_min' and angle &lt;= 'angle_crop_max' which is [angle_crop_min, angle_crop_max], unit is degress.&#10;    example:&#10;      {'angle_crop_min': 135.0}&#10;      {'angle_crop_max': 225.0}&#10;      which is [135.0, 225.0], angle unit is degress.&#10;- Serial port communication mode or network port communication mode configuration&#10;  --enable serial communication mode:&#10;  {'enable_serial_or_network_communication': True}&#10;  --enable network communication mode:&#10;  {'enable_serial_or_network_communication': False}&#10;'''&#10;"/>
+  </testcase>
+  <testcase
+    name="E302 (./launch/stl06nnet.launch.py:29:1)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="expected 2 blank lines, found 1:&#10;def generate_launch_description():&#10;"/>
+  </testcase>
+  <testcase
+    name="E114 (./launch/stl06nnet.launch.py:30:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4 (comment):&#10;  # LDROBOT LiDAR publisher node&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/stl06nnet.launch.py:31:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ldlidar_node = Node(&#10;"/>
+  </testcase>
+  <testcase
+    name="E262 (./launch/stl06nnet.launch.py:41:42)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="inline comment should start with '# ':&#10;        {'device_ip': '192.168.1.200'},  #雷达源ip&#10;"/>
+  </testcase>
+  <testcase
+    name="E262 (./launch/stl06nnet.launch.py:43:43)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="inline comment should start with '# ':&#10;        {'difop_ip': '192.168.1.102'},    #目标ip&#10;"/>
+  </testcase>
+  <testcase
+    name="E262 (./launch/stl06nnet.launch.py:46:41)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="inline comment should start with '# ':&#10;        {'laser_scan_dir': False},      #False:雷达倒装  True:雷达正装&#10;"/>
+  </testcase>
+  <testcase
+    name="E114 (./launch/stl06nnet.launch.py:56:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4 (comment):&#10;  # base_link to base_laser tf node&#10;"/>
+  </testcase>
+  <testcase
+    name="F841 (./launch/stl06nnet.launch.py:57:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="local variable 'base_link_to_laser_tf_node' is assigned to but never used:&#10;  base_link_to_laser_tf_node = Node(&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/stl06nnet.launch.py:57:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  base_link_to_laser_tf_node = Node(&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/stl06nnet.launch.py:61:19)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/stl06nnet.launch.py:61:23)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/stl06nnet.launch.py:61:30)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/stl06nnet.launch.py:61:34)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/stl06nnet.launch.py:61:38)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/stl06nnet.launch.py:61:42)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/stl06nnet.launch.py:61:54)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E303 (./launch/stl06nnet.launch.py:65:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="too many blank lines (2):&#10;  # Define LaunchDescription variable&#10;"/>
+  </testcase>
+  <testcase
+    name="E114 (./launch/stl06nnet.launch.py:65:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4 (comment):&#10;  # Define LaunchDescription variable&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/stl06nnet.launch.py:66:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ld = LaunchDescription()&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/stl06nnet.launch.py:68:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ld.add_action(ldlidar_node)&#10;"/>
+  </testcase>
+  <testcase
+    name="E114 (./launch/stl06nnet.launch.py:69:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4 (comment):&#10;  # ld.add_action(base_link_to_laser_tf_node)&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/stl06nnet.launch.py:71:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  return ld&#10;"/>
+  </testcase>
+  <testcase
+    name="Q001 (./launch/stl06p.launch.py:5:1)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="Single quote multiline found but double quotes preferred:&#10;'''&#10;Parameter Description:&#10;---&#10;- Set laser scan directon: &#10;  1. Set counterclockwise, example: {'laser_scan_dir': True}&#10;  2. Set clockwise,        example: {'laser_scan_dir': False}&#10;- Angle crop setting, Mask data within the set angle range:&#10;  1. Enable angle crop fuction:&#10;    1.1. enable angle crop,  example: {'enable_angle_crop_func': True}&#10;    1.2. disable angle crop, example: {'enable_angle_crop_func': False}&#10;  2. Angle cropping interval setting:&#10;  - The distance and intensity data within the set angle range will be set to 0.&#10;  - angle &gt;= 'angle_crop_min' and angle &lt;= 'angle_crop_max' which is [angle_crop_min, angle_crop_max], unit is degress.&#10;    example:&#10;      {'angle_crop_min': 135.0}&#10;      {'angle_crop_max': 225.0}&#10;      which is [135.0, 225.0], angle unit is degress.&#10;- Serial port communication mode or network port communication mode configuration&#10;  --enable serial communication mode:&#10;  {'enable_serial_or_network_communication': True}&#10;  --enable network communication mode:&#10;  {'enable_serial_or_network_communication': False}&#10;'''&#10;"/>
+  </testcase>
+  <testcase
+    name="W291 (./launch/stl06p.launch.py:8:27)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="trailing whitespace:&#10;'''&#10;Parameter Description:&#10;---&#10;- Set laser scan directon: &#10;  1. Set counterclockwise, example: {'laser_scan_dir': True}&#10;  2. Set clockwise,        example: {'laser_scan_dir': False}&#10;- Angle crop setting, Mask data within the set angle range:&#10;  1. Enable angle crop fuction:&#10;    1.1. enable angle crop,  example: {'enable_angle_crop_func': True}&#10;    1.2. disable angle crop, example: {'enable_angle_crop_func': False}&#10;  2. Angle cropping interval setting:&#10;  - The distance and intensity data within the set angle range will be set to 0.&#10;  - angle &gt;= 'angle_crop_min' and angle &lt;= 'angle_crop_max' which is [angle_crop_min, angle_crop_max], unit is degress.&#10;    example:&#10;      {'angle_crop_min': 135.0}&#10;      {'angle_crop_max': 225.0}&#10;      which is [135.0, 225.0], angle unit is degress.&#10;- Serial port communication mode or network port communication mode configuration&#10;  --enable serial communication mode:&#10;  {'enable_serial_or_network_communication': True}&#10;  --enable network communication mode:&#10;  {'enable_serial_or_network_communication': False}&#10;'''&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./launch/stl06p.launch.py:17:100)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="line too long (119 &gt; 99 characters):&#10;'''&#10;Parameter Description:&#10;---&#10;- Set laser scan directon: &#10;  1. Set counterclockwise, example: {'laser_scan_dir': True}&#10;  2. Set clockwise,        example: {'laser_scan_dir': False}&#10;- Angle crop setting, Mask data within the set angle range:&#10;  1. Enable angle crop fuction:&#10;    1.1. enable angle crop,  example: {'enable_angle_crop_func': True}&#10;    1.2. disable angle crop, example: {'enable_angle_crop_func': False}&#10;  2. Angle cropping interval setting:&#10;  - The distance and intensity data within the set angle range will be set to 0.&#10;  - angle &gt;= 'angle_crop_min' and angle &lt;= 'angle_crop_max' which is [angle_crop_min, angle_crop_max], unit is degress.&#10;    example:&#10;      {'angle_crop_min': 135.0}&#10;      {'angle_crop_max': 225.0}&#10;      which is [135.0, 225.0], angle unit is degress.&#10;- Serial port communication mode or network port communication mode configuration&#10;  --enable serial communication mode:&#10;  {'enable_serial_or_network_communication': True}&#10;  --enable network communication mode:&#10;  {'enable_serial_or_network_communication': False}&#10;'''&#10;"/>
+  </testcase>
+  <testcase
+    name="E302 (./launch/stl06p.launch.py:29:1)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="expected 2 blank lines, found 1:&#10;def generate_launch_description():&#10;"/>
+  </testcase>
+  <testcase
+    name="E114 (./launch/stl06p.launch.py:30:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4 (comment):&#10;  # LDROBOT LiDAR publisher node&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/stl06p.launch.py:31:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ldlidar_node = Node(&#10;"/>
+  </testcase>
+  <testcase
+    name="E114 (./launch/stl06p.launch.py:53:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4 (comment):&#10;  # base_link to base_laser tf node&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/stl06p.launch.py:54:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  base_link_to_laser_tf_node = Node(&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/stl06p.launch.py:58:19)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','base_laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/stl06p.launch.py:58:23)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','base_laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/stl06p.launch.py:58:30)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','base_laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/stl06p.launch.py:58:34)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','base_laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/stl06p.launch.py:58:38)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','base_laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/stl06p.launch.py:58:42)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','base_laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/stl06p.launch.py:58:54)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','base_laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E303 (./launch/stl06p.launch.py:62:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="too many blank lines (2):&#10;  # Define LaunchDescription variable&#10;"/>
+  </testcase>
+  <testcase
+    name="E114 (./launch/stl06p.launch.py:62:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4 (comment):&#10;  # Define LaunchDescription variable&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/stl06p.launch.py:63:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ld = LaunchDescription()&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/stl06p.launch.py:65:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ld.add_action(ldlidar_node)&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/stl06p.launch.py:66:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ld.add_action(base_link_to_laser_tf_node)&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/stl06p.launch.py:68:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  return ld"/>
+  </testcase>
+  <testcase
+    name="W292 (./launch/stl06p.launch.py:68:12)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="no newline at end of file:&#10;  return ld"/>
+  </testcase>
+  <testcase
+    name="Q001 (./launch/stl19p.launch.py:5:1)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="Single quote multiline found but double quotes preferred:&#10;'''&#10;Parameter Description:&#10;---&#10;- Set laser scan directon: &#10;  1. Set counterclockwise, example: {'laser_scan_dir': True}&#10;  2. Set clockwise,        example: {'laser_scan_dir': False}&#10;- Angle crop setting, Mask data within the set angle range:&#10;  1. Enable angle crop fuction:&#10;    1.1. enable angle crop,  example: {'enable_angle_crop_func': True}&#10;    1.2. disable angle crop, example: {'enable_angle_crop_func': False}&#10;  2. Angle cropping interval setting:&#10;  - The distance and intensity data within the set angle range will be set to 0.&#10;  - angle &gt;= 'angle_crop_min' and angle &lt;= 'angle_crop_max' which is [angle_crop_min, angle_crop_max], unit is degress.&#10;    example:&#10;      {'angle_crop_min': 135.0}&#10;      {'angle_crop_max': 225.0}&#10;      which is [135.0, 225.0], angle unit is degress.&#10;- Serial port communication mode or network port communication mode configuration&#10;  --enable serial communication mode:&#10;  {'enable_serial_or_network_communication': True}&#10;  --enable network communication mode:&#10;  {'enable_serial_or_network_communication': False}&#10;'''&#10;"/>
+  </testcase>
+  <testcase
+    name="W291 (./launch/stl19p.launch.py:8:27)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="trailing whitespace:&#10;'''&#10;Parameter Description:&#10;---&#10;- Set laser scan directon: &#10;  1. Set counterclockwise, example: {'laser_scan_dir': True}&#10;  2. Set clockwise,        example: {'laser_scan_dir': False}&#10;- Angle crop setting, Mask data within the set angle range:&#10;  1. Enable angle crop fuction:&#10;    1.1. enable angle crop,  example: {'enable_angle_crop_func': True}&#10;    1.2. disable angle crop, example: {'enable_angle_crop_func': False}&#10;  2. Angle cropping interval setting:&#10;  - The distance and intensity data within the set angle range will be set to 0.&#10;  - angle &gt;= 'angle_crop_min' and angle &lt;= 'angle_crop_max' which is [angle_crop_min, angle_crop_max], unit is degress.&#10;    example:&#10;      {'angle_crop_min': 135.0}&#10;      {'angle_crop_max': 225.0}&#10;      which is [135.0, 225.0], angle unit is degress.&#10;- Serial port communication mode or network port communication mode configuration&#10;  --enable serial communication mode:&#10;  {'enable_serial_or_network_communication': True}&#10;  --enable network communication mode:&#10;  {'enable_serial_or_network_communication': False}&#10;'''&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./launch/stl19p.launch.py:17:100)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="line too long (119 &gt; 99 characters):&#10;'''&#10;Parameter Description:&#10;---&#10;- Set laser scan directon: &#10;  1. Set counterclockwise, example: {'laser_scan_dir': True}&#10;  2. Set clockwise,        example: {'laser_scan_dir': False}&#10;- Angle crop setting, Mask data within the set angle range:&#10;  1. Enable angle crop fuction:&#10;    1.1. enable angle crop,  example: {'enable_angle_crop_func': True}&#10;    1.2. disable angle crop, example: {'enable_angle_crop_func': False}&#10;  2. Angle cropping interval setting:&#10;  - The distance and intensity data within the set angle range will be set to 0.&#10;  - angle &gt;= 'angle_crop_min' and angle &lt;= 'angle_crop_max' which is [angle_crop_min, angle_crop_max], unit is degress.&#10;    example:&#10;      {'angle_crop_min': 135.0}&#10;      {'angle_crop_max': 225.0}&#10;      which is [135.0, 225.0], angle unit is degress.&#10;- Serial port communication mode or network port communication mode configuration&#10;  --enable serial communication mode:&#10;  {'enable_serial_or_network_communication': True}&#10;  --enable network communication mode:&#10;  {'enable_serial_or_network_communication': False}&#10;'''&#10;"/>
+  </testcase>
+  <testcase
+    name="E302 (./launch/stl19p.launch.py:29:1)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="expected 2 blank lines, found 1:&#10;def generate_launch_description():&#10;"/>
+  </testcase>
+  <testcase
+    name="E114 (./launch/stl19p.launch.py:30:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4 (comment):&#10;  # LDROBOT LiDAR publisher node&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/stl19p.launch.py:31:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ldlidar_node = Node(&#10;"/>
+  </testcase>
+  <testcase
+    name="E114 (./launch/stl19p.launch.py:55:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4 (comment):&#10;  # base_link to base_laser tf node&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/stl19p.launch.py:56:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  base_link_to_laser_tf_node = Node(&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/stl19p.launch.py:60:19)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/stl19p.launch.py:60:23)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/stl19p.launch.py:60:30)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/stl19p.launch.py:60:34)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/stl19p.launch.py:60:38)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/stl19p.launch.py:60:42)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/stl19p.launch.py:60:54)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E303 (./launch/stl19p.launch.py:64:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="too many blank lines (2):&#10;  # Define LaunchDescription variable&#10;"/>
+  </testcase>
+  <testcase
+    name="E114 (./launch/stl19p.launch.py:64:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4 (comment):&#10;  # Define LaunchDescription variable&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/stl19p.launch.py:65:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ld = LaunchDescription()&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/stl19p.launch.py:67:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ld.add_action(ldlidar_node)&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/stl19p.launch.py:68:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ld.add_action(base_link_to_laser_tf_node)&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/stl19p.launch.py:70:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  return ld"/>
+  </testcase>
+  <testcase
+    name="W292 (./launch/stl19p.launch.py:70:12)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="no newline at end of file:&#10;  return ld"/>
+  </testcase>
+  <testcase
+    name="Q001 (./launch/stl19pnet.launch.py:5:1)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="Single quote multiline found but double quotes preferred:&#10;'''&#10;Parameter Description:&#10;---&#10;- Set laser scan directon: &#10;  1. Set counterclockwise, example: {'laser_scan_dir': True}&#10;  2. Set clockwise,        example: {'laser_scan_dir': False}&#10;- Angle crop setting, Mask data within the set angle range:&#10;  1. Enable angle crop fuction:&#10;    1.1. enable angle crop,  example: {'enable_angle_crop_func': True}&#10;    1.2. disable angle crop, example: {'enable_angle_crop_func': False}&#10;  2. Angle cropping interval setting:&#10;  - The distance and intensity data within the set angle range will be set to 0.&#10;  - angle &gt;= 'angle_crop_min' and angle &lt;= 'angle_crop_max' which is [angle_crop_min, angle_crop_max], unit is degress.&#10;    example:&#10;      {'angle_crop_min': 135.0}&#10;      {'angle_crop_max': 225.0}&#10;      which is [135.0, 225.0], angle unit is degress.&#10;- Serial port communication mode or network port communication mode configuration&#10;  --enable serial communication mode:&#10;  {'enable_serial_or_network_communication': True}&#10;  --enable network communication mode:&#10;  {'enable_serial_or_network_communication': False}&#10;'''&#10;"/>
+  </testcase>
+  <testcase
+    name="W291 (./launch/stl19pnet.launch.py:8:27)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="trailing whitespace:&#10;'''&#10;Parameter Description:&#10;---&#10;- Set laser scan directon: &#10;  1. Set counterclockwise, example: {'laser_scan_dir': True}&#10;  2. Set clockwise,        example: {'laser_scan_dir': False}&#10;- Angle crop setting, Mask data within the set angle range:&#10;  1. Enable angle crop fuction:&#10;    1.1. enable angle crop,  example: {'enable_angle_crop_func': True}&#10;    1.2. disable angle crop, example: {'enable_angle_crop_func': False}&#10;  2. Angle cropping interval setting:&#10;  - The distance and intensity data within the set angle range will be set to 0.&#10;  - angle &gt;= 'angle_crop_min' and angle &lt;= 'angle_crop_max' which is [angle_crop_min, angle_crop_max], unit is degress.&#10;    example:&#10;      {'angle_crop_min': 135.0}&#10;      {'angle_crop_max': 225.0}&#10;      which is [135.0, 225.0], angle unit is degress.&#10;- Serial port communication mode or network port communication mode configuration&#10;  --enable serial communication mode:&#10;  {'enable_serial_or_network_communication': True}&#10;  --enable network communication mode:&#10;  {'enable_serial_or_network_communication': False}&#10;'''&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./launch/stl19pnet.launch.py:17:100)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="line too long (119 &gt; 99 characters):&#10;'''&#10;Parameter Description:&#10;---&#10;- Set laser scan directon: &#10;  1. Set counterclockwise, example: {'laser_scan_dir': True}&#10;  2. Set clockwise,        example: {'laser_scan_dir': False}&#10;- Angle crop setting, Mask data within the set angle range:&#10;  1. Enable angle crop fuction:&#10;    1.1. enable angle crop,  example: {'enable_angle_crop_func': True}&#10;    1.2. disable angle crop, example: {'enable_angle_crop_func': False}&#10;  2. Angle cropping interval setting:&#10;  - The distance and intensity data within the set angle range will be set to 0.&#10;  - angle &gt;= 'angle_crop_min' and angle &lt;= 'angle_crop_max' which is [angle_crop_min, angle_crop_max], unit is degress.&#10;    example:&#10;      {'angle_crop_min': 135.0}&#10;      {'angle_crop_max': 225.0}&#10;      which is [135.0, 225.0], angle unit is degress.&#10;- Serial port communication mode or network port communication mode configuration&#10;  --enable serial communication mode:&#10;  {'enable_serial_or_network_communication': True}&#10;  --enable network communication mode:&#10;  {'enable_serial_or_network_communication': False}&#10;'''&#10;"/>
+  </testcase>
+  <testcase
+    name="E302 (./launch/stl19pnet.launch.py:29:1)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="expected 2 blank lines, found 1:&#10;def generate_launch_description():&#10;"/>
+  </testcase>
+  <testcase
+    name="E114 (./launch/stl19pnet.launch.py:30:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4 (comment):&#10;  # LDROBOT LiDAR publisher node&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/stl19pnet.launch.py:31:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ldlidar_node = Node(&#10;"/>
+  </testcase>
+  <testcase
+    name="E262 (./launch/stl19pnet.launch.py:41:42)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="inline comment should start with '# ':&#10;        {'device_ip': '192.168.1.200'},  #雷达源ip&#10;"/>
+  </testcase>
+  <testcase
+    name="E262 (./launch/stl19pnet.launch.py:43:43)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="inline comment should start with '# ':&#10;        {'difop_ip': '192.168.1.102'},    #目标ip&#10;"/>
+  </testcase>
+  <testcase
+    name="E114 (./launch/stl19pnet.launch.py:56:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4 (comment):&#10;  # base_link to base_laser tf node&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/stl19pnet.launch.py:57:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  base_link_to_laser_tf_node = Node(&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/stl19pnet.launch.py:61:19)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/stl19pnet.launch.py:61:23)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/stl19pnet.launch.py:61:30)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/stl19pnet.launch.py:61:34)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/stl19pnet.launch.py:61:38)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/stl19pnet.launch.py:61:42)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/stl19pnet.launch.py:61:54)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E303 (./launch/stl19pnet.launch.py:65:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="too many blank lines (2):&#10;  # Define LaunchDescription variable&#10;"/>
+  </testcase>
+  <testcase
+    name="E114 (./launch/stl19pnet.launch.py:65:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4 (comment):&#10;  # Define LaunchDescription variable&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/stl19pnet.launch.py:66:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ld = LaunchDescription()&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/stl19pnet.launch.py:68:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ld.add_action(ldlidar_node)&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/stl19pnet.launch.py:69:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ld.add_action(base_link_to_laser_tf_node)&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/stl19pnet.launch.py:71:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  return ld"/>
+  </testcase>
+  <testcase
+    name="W292 (./launch/stl19pnet.launch.py:71:12)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="no newline at end of file:&#10;  return ld"/>
+  </testcase>
+  <testcase
+    name="Q001 (./launch/stl26.launch.py:5:1)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="Single quote multiline found but double quotes preferred:&#10;'''&#10;Parameter Description:&#10;---&#10;- Set laser scan directon: &#10;  1. Set counterclockwise, example: {'laser_scan_dir': True}&#10;  2. Set clockwise,        example: {'laser_scan_dir': False}&#10;- Angle crop setting, Mask data within the set angle range:&#10;  1. Enable angle crop fuction:&#10;    1.1. enable angle crop,  example: {'enable_angle_crop_func': True}&#10;    1.2. disable angle crop, example: {'enable_angle_crop_func': False}&#10;  2. Angle cropping interval setting:&#10;  - The distance and intensity data within the set angle range will be set to 0.&#10;  - angle &gt;= 'angle_crop_min' and angle &lt;= 'angle_crop_max' which is [angle_crop_min, angle_crop_max], unit is degress.&#10;    example:&#10;      {'angle_crop_min': 135.0}&#10;      {'angle_crop_max': 225.0}&#10;      which is [135.0, 225.0], angle unit is degress.&#10;- Serial port communication mode or network port communication mode configuration&#10;  --enable serial communication mode:&#10;  {'enable_serial_or_network_communication': True}&#10;  --enable network communication mode:&#10;  {'enable_serial_or_network_communication': False}&#10;'''&#10;"/>
+  </testcase>
+  <testcase
+    name="W291 (./launch/stl26.launch.py:8:27)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="trailing whitespace:&#10;'''&#10;Parameter Description:&#10;---&#10;- Set laser scan directon: &#10;  1. Set counterclockwise, example: {'laser_scan_dir': True}&#10;  2. Set clockwise,        example: {'laser_scan_dir': False}&#10;- Angle crop setting, Mask data within the set angle range:&#10;  1. Enable angle crop fuction:&#10;    1.1. enable angle crop,  example: {'enable_angle_crop_func': True}&#10;    1.2. disable angle crop, example: {'enable_angle_crop_func': False}&#10;  2. Angle cropping interval setting:&#10;  - The distance and intensity data within the set angle range will be set to 0.&#10;  - angle &gt;= 'angle_crop_min' and angle &lt;= 'angle_crop_max' which is [angle_crop_min, angle_crop_max], unit is degress.&#10;    example:&#10;      {'angle_crop_min': 135.0}&#10;      {'angle_crop_max': 225.0}&#10;      which is [135.0, 225.0], angle unit is degress.&#10;- Serial port communication mode or network port communication mode configuration&#10;  --enable serial communication mode:&#10;  {'enable_serial_or_network_communication': True}&#10;  --enable network communication mode:&#10;  {'enable_serial_or_network_communication': False}&#10;'''&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./launch/stl26.launch.py:17:100)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="line too long (119 &gt; 99 characters):&#10;'''&#10;Parameter Description:&#10;---&#10;- Set laser scan directon: &#10;  1. Set counterclockwise, example: {'laser_scan_dir': True}&#10;  2. Set clockwise,        example: {'laser_scan_dir': False}&#10;- Angle crop setting, Mask data within the set angle range:&#10;  1. Enable angle crop fuction:&#10;    1.1. enable angle crop,  example: {'enable_angle_crop_func': True}&#10;    1.2. disable angle crop, example: {'enable_angle_crop_func': False}&#10;  2. Angle cropping interval setting:&#10;  - The distance and intensity data within the set angle range will be set to 0.&#10;  - angle &gt;= 'angle_crop_min' and angle &lt;= 'angle_crop_max' which is [angle_crop_min, angle_crop_max], unit is degress.&#10;    example:&#10;      {'angle_crop_min': 135.0}&#10;      {'angle_crop_max': 225.0}&#10;      which is [135.0, 225.0], angle unit is degress.&#10;- Serial port communication mode or network port communication mode configuration&#10;  --enable serial communication mode:&#10;  {'enable_serial_or_network_communication': True}&#10;  --enable network communication mode:&#10;  {'enable_serial_or_network_communication': False}&#10;'''&#10;"/>
+  </testcase>
+  <testcase
+    name="E302 (./launch/stl26.launch.py:29:1)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="expected 2 blank lines, found 1:&#10;def generate_launch_description():&#10;"/>
+  </testcase>
+  <testcase
+    name="E114 (./launch/stl26.launch.py:30:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4 (comment):&#10;  # LDROBOT LiDAR publisher node&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/stl26.launch.py:31:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ldlidar_node = Node(&#10;"/>
+  </testcase>
+  <testcase
+    name="E114 (./launch/stl26.launch.py:53:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4 (comment):&#10;  # base_link to base_laser tf node&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/stl26.launch.py:54:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  base_link_to_laser_tf_node = Node(&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/stl26.launch.py:58:19)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','base_laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/stl26.launch.py:58:23)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','base_laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/stl26.launch.py:58:30)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','base_laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/stl26.launch.py:58:34)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','base_laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/stl26.launch.py:58:38)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','base_laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/stl26.launch.py:58:42)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','base_laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/stl26.launch.py:58:54)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','base_laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E303 (./launch/stl26.launch.py:62:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="too many blank lines (2):&#10;  # Define LaunchDescription variable&#10;"/>
+  </testcase>
+  <testcase
+    name="E114 (./launch/stl26.launch.py:62:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4 (comment):&#10;  # Define LaunchDescription variable&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/stl26.launch.py:63:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ld = LaunchDescription()&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/stl26.launch.py:65:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ld.add_action(ldlidar_node)&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/stl26.launch.py:66:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ld.add_action(base_link_to_laser_tf_node)&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/stl26.launch.py:68:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  return ld"/>
+  </testcase>
+  <testcase
+    name="W292 (./launch/stl26.launch.py:68:12)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="no newline at end of file:&#10;  return ld"/>
+  </testcase>
+  <testcase
+    name="Q001 (./launch/stl27l.launch.py:5:1)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="Single quote multiline found but double quotes preferred:&#10;'''&#10;Parameter Description:&#10;---&#10;- Set laser scan directon: &#10;  1. Set counterclockwise, example: {'laser_scan_dir': True}&#10;  2. Set clockwise,        example: {'laser_scan_dir': False}&#10;- Angle crop setting, Mask data within the set angle range:&#10;  1. Enable angle crop fuction:&#10;    1.1. enable angle crop,  example: {'enable_angle_crop_func': True}&#10;    1.2. disable angle crop, example: {'enable_angle_crop_func': False}&#10;  2. Angle cropping interval setting:&#10;  - The distance and intensity data within the set angle range will be set to 0.&#10;  - angle &gt;= 'angle_crop_min' and angle &lt;= 'angle_crop_max' which is [angle_crop_min, angle_crop_max], unit is degress.&#10;    example:&#10;      {'angle_crop_min': 135.0}&#10;      {'angle_crop_max': 225.0}&#10;      which is [135.0, 225.0], angle unit is degress.&#10;- Serial port communication mode or network port communication mode configuration&#10;  --enable serial communication mode:&#10;  {'enable_serial_or_network_communication': True}&#10;  --enable network communication mode:&#10;  {'enable_serial_or_network_communication': False}&#10;'''&#10;"/>
+  </testcase>
+  <testcase
+    name="W291 (./launch/stl27l.launch.py:8:27)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="trailing whitespace:&#10;'''&#10;Parameter Description:&#10;---&#10;- Set laser scan directon: &#10;  1. Set counterclockwise, example: {'laser_scan_dir': True}&#10;  2. Set clockwise,        example: {'laser_scan_dir': False}&#10;- Angle crop setting, Mask data within the set angle range:&#10;  1. Enable angle crop fuction:&#10;    1.1. enable angle crop,  example: {'enable_angle_crop_func': True}&#10;    1.2. disable angle crop, example: {'enable_angle_crop_func': False}&#10;  2. Angle cropping interval setting:&#10;  - The distance and intensity data within the set angle range will be set to 0.&#10;  - angle &gt;= 'angle_crop_min' and angle &lt;= 'angle_crop_max' which is [angle_crop_min, angle_crop_max], unit is degress.&#10;    example:&#10;      {'angle_crop_min': 135.0}&#10;      {'angle_crop_max': 225.0}&#10;      which is [135.0, 225.0], angle unit is degress.&#10;- Serial port communication mode or network port communication mode configuration&#10;  --enable serial communication mode:&#10;  {'enable_serial_or_network_communication': True}&#10;  --enable network communication mode:&#10;  {'enable_serial_or_network_communication': False}&#10;'''&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./launch/stl27l.launch.py:17:100)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="line too long (119 &gt; 99 characters):&#10;'''&#10;Parameter Description:&#10;---&#10;- Set laser scan directon: &#10;  1. Set counterclockwise, example: {'laser_scan_dir': True}&#10;  2. Set clockwise,        example: {'laser_scan_dir': False}&#10;- Angle crop setting, Mask data within the set angle range:&#10;  1. Enable angle crop fuction:&#10;    1.1. enable angle crop,  example: {'enable_angle_crop_func': True}&#10;    1.2. disable angle crop, example: {'enable_angle_crop_func': False}&#10;  2. Angle cropping interval setting:&#10;  - The distance and intensity data within the set angle range will be set to 0.&#10;  - angle &gt;= 'angle_crop_min' and angle &lt;= 'angle_crop_max' which is [angle_crop_min, angle_crop_max], unit is degress.&#10;    example:&#10;      {'angle_crop_min': 135.0}&#10;      {'angle_crop_max': 225.0}&#10;      which is [135.0, 225.0], angle unit is degress.&#10;- Serial port communication mode or network port communication mode configuration&#10;  --enable serial communication mode:&#10;  {'enable_serial_or_network_communication': True}&#10;  --enable network communication mode:&#10;  {'enable_serial_or_network_communication': False}&#10;'''&#10;"/>
+  </testcase>
+  <testcase
+    name="E302 (./launch/stl27l.launch.py:29:1)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="expected 2 blank lines, found 1:&#10;def generate_launch_description():&#10;"/>
+  </testcase>
+  <testcase
+    name="E114 (./launch/stl27l.launch.py:30:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4 (comment):&#10;  # LDROBOT LiDAR publisher node&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/stl27l.launch.py:31:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ldlidar_node = Node(&#10;"/>
+  </testcase>
+  <testcase
+    name="E114 (./launch/stl27l.launch.py:53:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4 (comment):&#10;  # base_link to base_laser tf node&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/stl27l.launch.py:54:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  base_link_to_laser_tf_node = Node(&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/stl27l.launch.py:58:19)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','base_laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/stl27l.launch.py:58:23)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','base_laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/stl27l.launch.py:58:30)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','base_laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/stl27l.launch.py:58:34)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','base_laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/stl27l.launch.py:58:38)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','base_laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/stl27l.launch.py:58:42)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','base_laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/stl27l.launch.py:58:54)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;    arguments=['0','0','0.18','0','0','0','base_link','base_laser']&#10;"/>
+  </testcase>
+  <testcase
+    name="E303 (./launch/stl27l.launch.py:62:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="too many blank lines (2):&#10;  # Define LaunchDescription variable&#10;"/>
+  </testcase>
+  <testcase
+    name="E114 (./launch/stl27l.launch.py:62:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4 (comment):&#10;  # Define LaunchDescription variable&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/stl27l.launch.py:63:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ld = LaunchDescription()&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/stl27l.launch.py:65:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ld.add_action(ldlidar_node)&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/stl27l.launch.py:66:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ld.add_action(base_link_to_laser_tf_node)&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/stl27l.launch.py:68:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  return ld"/>
+  </testcase>
+  <testcase
+    name="W292 (./launch/stl27l.launch.py:68:12)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="no newline at end of file:&#10;  return ld"/>
+  </testcase>
+  <testcase
+    name="I201 (./launch/viewer_ld06.launch.py:3:1)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="Missing newline between import groups. 'from ament_index_python.packages import get_package_share_directory' is identified as Third Party and 'import os' is identified as Stdlib.:&#10;from ament_index_python.packages import get_package_share_directory&#10;"/>
+  </testcase>
+  <testcase
+    name="I100 (./launch/viewer_ld06.launch.py:6:1)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="Import statements are in the wrong order. 'from launch.actions import IncludeLaunchDescription' should be before 'from launch_ros.actions import Node':&#10;from launch.actions import IncludeLaunchDescription&#10;"/>
+  </testcase>
+  <testcase
+    name="E302 (./launch/viewer_ld06.launch.py:9:1)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="expected 2 blank lines, found 1:&#10;def generate_launch_description():&#10;"/>
+  </testcase>
+  <testcase
+    name="E114 (./launch/viewer_ld06.launch.py:10:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4 (comment):&#10;  # RViZ2 settings&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/viewer_ld06.launch.py:11:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  rviz2_config = os.path.join(&#10;"/>
+  </testcase>
+  <testcase
+    name="W293 (./launch/viewer_ld06.launch.py:16:1)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="blank line contains whitespace:&#10;  &#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/viewer_ld06.launch.py:17:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  rviz2_node = Node(&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/viewer_ld06.launch.py:21:22)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;      arguments=['-d',rviz2_config],&#10;"/>
+  </testcase>
+  <testcase
+    name="E114 (./launch/viewer_ld06.launch.py:25:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4 (comment):&#10;  #Include LDLidar launch file&#10;"/>
+  </testcase>
+  <testcase
+    name="E265 (./launch/viewer_ld06.launch.py:25:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="block comment should start with '# ':&#10;  #Include LDLidar launch file&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/viewer_ld06.launch.py:26:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ldlidar_launch = IncludeLaunchDescription(&#10;"/>
+  </testcase>
+  <testcase
+    name="E114 (./launch/viewer_ld06.launch.py:33:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4 (comment):&#10;  # Define LaunchDescription variable&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/viewer_ld06.launch.py:34:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ld = LaunchDescription()&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/viewer_ld06.launch.py:36:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ld.add_action(ldlidar_launch)&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/viewer_ld06.launch.py:37:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ld.add_action(rviz2_node)&#10;"/>
+  </testcase>
+  <testcase
+    name="W293 (./launch/viewer_ld06.launch.py:38:1)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="blank line contains whitespace:&#10;  &#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/viewer_ld06.launch.py:39:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  return ld"/>
+  </testcase>
+  <testcase
+    name="W292 (./launch/viewer_ld06.launch.py:39:12)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="no newline at end of file:&#10;  return ld"/>
+  </testcase>
+  <testcase
+    name="I201 (./launch/viewer_ld19.launch.py:3:1)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="Missing newline between import groups. 'from ament_index_python.packages import get_package_share_directory' is identified as Third Party and 'import os' is identified as Stdlib.:&#10;from ament_index_python.packages import get_package_share_directory&#10;"/>
+  </testcase>
+  <testcase
+    name="I100 (./launch/viewer_ld19.launch.py:6:1)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="Import statements are in the wrong order. 'from launch.actions import IncludeLaunchDescription' should be before 'from launch_ros.actions import Node':&#10;from launch.actions import IncludeLaunchDescription&#10;"/>
+  </testcase>
+  <testcase
+    name="E302 (./launch/viewer_ld19.launch.py:9:1)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="expected 2 blank lines, found 1:&#10;def generate_launch_description():&#10;"/>
+  </testcase>
+  <testcase
+    name="E114 (./launch/viewer_ld19.launch.py:10:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4 (comment):&#10;  # RViZ2 settings&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/viewer_ld19.launch.py:11:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  rviz2_config = os.path.join(&#10;"/>
+  </testcase>
+  <testcase
+    name="W293 (./launch/viewer_ld19.launch.py:16:1)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="blank line contains whitespace:&#10;  &#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/viewer_ld19.launch.py:17:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  rviz2_node = Node(&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/viewer_ld19.launch.py:21:22)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;      arguments=['-d',rviz2_config],&#10;"/>
+  </testcase>
+  <testcase
+    name="E114 (./launch/viewer_ld19.launch.py:25:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4 (comment):&#10;  #Include LDLidar launch file&#10;"/>
+  </testcase>
+  <testcase
+    name="E265 (./launch/viewer_ld19.launch.py:25:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="block comment should start with '# ':&#10;  #Include LDLidar launch file&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/viewer_ld19.launch.py:26:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ldlidar_launch = IncludeLaunchDescription(&#10;"/>
+  </testcase>
+  <testcase
+    name="E114 (./launch/viewer_ld19.launch.py:33:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4 (comment):&#10;  # Define LaunchDescription variable&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/viewer_ld19.launch.py:34:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ld = LaunchDescription()&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/viewer_ld19.launch.py:36:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ld.add_action(ldlidar_launch)&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/viewer_ld19.launch.py:37:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ld.add_action(rviz2_node)&#10;"/>
+  </testcase>
+  <testcase
+    name="W293 (./launch/viewer_ld19.launch.py:38:1)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="blank line contains whitespace:&#10;  &#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/viewer_ld19.launch.py:39:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  return ld"/>
+  </testcase>
+  <testcase
+    name="W292 (./launch/viewer_ld19.launch.py:39:12)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="no newline at end of file:&#10;  return ld"/>
+  </testcase>
+  <testcase
+    name="I201 (./launch/viewer_stl06n.launch.py:3:1)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="Missing newline between import groups. 'from ament_index_python.packages import get_package_share_directory' is identified as Third Party and 'import os' is identified as Stdlib.:&#10;from ament_index_python.packages import get_package_share_directory&#10;"/>
+  </testcase>
+  <testcase
+    name="I100 (./launch/viewer_stl06n.launch.py:6:1)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="Import statements are in the wrong order. 'from launch.actions import IncludeLaunchDescription' should be before 'from launch_ros.actions import Node':&#10;from launch.actions import IncludeLaunchDescription&#10;"/>
+  </testcase>
+  <testcase
+    name="E302 (./launch/viewer_stl06n.launch.py:9:1)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="expected 2 blank lines, found 1:&#10;def generate_launch_description():&#10;"/>
+  </testcase>
+  <testcase
+    name="E114 (./launch/viewer_stl06n.launch.py:10:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4 (comment):&#10;  # RViZ2 settings&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/viewer_stl06n.launch.py:11:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  rviz2_config = os.path.join(&#10;"/>
+  </testcase>
+  <testcase
+    name="W293 (./launch/viewer_stl06n.launch.py:16:1)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="blank line contains whitespace:&#10;  &#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/viewer_stl06n.launch.py:17:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  rviz2_node = Node(&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/viewer_stl06n.launch.py:21:22)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;      arguments=['-d',rviz2_config],&#10;"/>
+  </testcase>
+  <testcase
+    name="E114 (./launch/viewer_stl06n.launch.py:25:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4 (comment):&#10;  #Include LDLidar launch file&#10;"/>
+  </testcase>
+  <testcase
+    name="E265 (./launch/viewer_stl06n.launch.py:25:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="block comment should start with '# ':&#10;  #Include LDLidar launch file&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/viewer_stl06n.launch.py:26:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ldlidar_launch = IncludeLaunchDescription(&#10;"/>
+  </testcase>
+  <testcase
+    name="E114 (./launch/viewer_stl06n.launch.py:33:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4 (comment):&#10;  # Define LaunchDescription variable&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/viewer_stl06n.launch.py:34:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ld = LaunchDescription()&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/viewer_stl06n.launch.py:36:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ld.add_action(ldlidar_launch)&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/viewer_stl06n.launch.py:37:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ld.add_action(rviz2_node)&#10;"/>
+  </testcase>
+  <testcase
+    name="W293 (./launch/viewer_stl06n.launch.py:38:1)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="blank line contains whitespace:&#10;  &#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/viewer_stl06n.launch.py:39:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  return ld"/>
+  </testcase>
+  <testcase
+    name="W292 (./launch/viewer_stl06n.launch.py:39:12)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="no newline at end of file:&#10;  return ld"/>
+  </testcase>
+  <testcase
+    name="I201 (./launch/viewer_stl06p.launch.py:3:1)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="Missing newline between import groups. 'from ament_index_python.packages import get_package_share_directory' is identified as Third Party and 'import os' is identified as Stdlib.:&#10;from ament_index_python.packages import get_package_share_directory&#10;"/>
+  </testcase>
+  <testcase
+    name="I100 (./launch/viewer_stl06p.launch.py:6:1)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="Import statements are in the wrong order. 'from launch.actions import IncludeLaunchDescription' should be before 'from launch_ros.actions import Node':&#10;from launch.actions import IncludeLaunchDescription&#10;"/>
+  </testcase>
+  <testcase
+    name="E302 (./launch/viewer_stl06p.launch.py:9:1)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="expected 2 blank lines, found 1:&#10;def generate_launch_description():&#10;"/>
+  </testcase>
+  <testcase
+    name="E114 (./launch/viewer_stl06p.launch.py:10:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4 (comment):&#10;  # RViZ2 settings&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/viewer_stl06p.launch.py:11:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  rviz2_config = os.path.join(&#10;"/>
+  </testcase>
+  <testcase
+    name="W293 (./launch/viewer_stl06p.launch.py:16:1)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="blank line contains whitespace:&#10;  &#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/viewer_stl06p.launch.py:17:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  rviz2_node = Node(&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/viewer_stl06p.launch.py:21:22)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;      arguments=['-d',rviz2_config],&#10;"/>
+  </testcase>
+  <testcase
+    name="E114 (./launch/viewer_stl06p.launch.py:25:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4 (comment):&#10;  #Include LDLidar launch file&#10;"/>
+  </testcase>
+  <testcase
+    name="E265 (./launch/viewer_stl06p.launch.py:25:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="block comment should start with '# ':&#10;  #Include LDLidar launch file&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/viewer_stl06p.launch.py:26:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ldlidar_launch = IncludeLaunchDescription(&#10;"/>
+  </testcase>
+  <testcase
+    name="E114 (./launch/viewer_stl06p.launch.py:33:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4 (comment):&#10;  # Define LaunchDescription variable&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/viewer_stl06p.launch.py:34:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ld = LaunchDescription()&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/viewer_stl06p.launch.py:36:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ld.add_action(ldlidar_launch)&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/viewer_stl06p.launch.py:37:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ld.add_action(rviz2_node)&#10;"/>
+  </testcase>
+  <testcase
+    name="W293 (./launch/viewer_stl06p.launch.py:38:1)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="blank line contains whitespace:&#10;  &#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/viewer_stl06p.launch.py:39:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  return ld"/>
+  </testcase>
+  <testcase
+    name="W292 (./launch/viewer_stl06p.launch.py:39:12)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="no newline at end of file:&#10;  return ld"/>
+  </testcase>
+  <testcase
+    name="I201 (./launch/viewer_stl26.launch.py:3:1)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="Missing newline between import groups. 'from ament_index_python.packages import get_package_share_directory' is identified as Third Party and 'import os' is identified as Stdlib.:&#10;from ament_index_python.packages import get_package_share_directory&#10;"/>
+  </testcase>
+  <testcase
+    name="I100 (./launch/viewer_stl26.launch.py:6:1)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="Import statements are in the wrong order. 'from launch.actions import IncludeLaunchDescription' should be before 'from launch_ros.actions import Node':&#10;from launch.actions import IncludeLaunchDescription&#10;"/>
+  </testcase>
+  <testcase
+    name="E302 (./launch/viewer_stl26.launch.py:9:1)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="expected 2 blank lines, found 1:&#10;def generate_launch_description():&#10;"/>
+  </testcase>
+  <testcase
+    name="E114 (./launch/viewer_stl26.launch.py:10:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4 (comment):&#10;  # RViZ2 settings&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/viewer_stl26.launch.py:11:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  rviz2_config = os.path.join(&#10;"/>
+  </testcase>
+  <testcase
+    name="W293 (./launch/viewer_stl26.launch.py:16:1)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="blank line contains whitespace:&#10;  &#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/viewer_stl26.launch.py:17:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  rviz2_node = Node(&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/viewer_stl26.launch.py:21:22)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;      arguments=['-d',rviz2_config],&#10;"/>
+  </testcase>
+  <testcase
+    name="E114 (./launch/viewer_stl26.launch.py:25:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4 (comment):&#10;  #Include LDLidar launch file&#10;"/>
+  </testcase>
+  <testcase
+    name="E265 (./launch/viewer_stl26.launch.py:25:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="block comment should start with '# ':&#10;  #Include LDLidar launch file&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/viewer_stl26.launch.py:26:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ldlidar_launch = IncludeLaunchDescription(&#10;"/>
+  </testcase>
+  <testcase
+    name="E114 (./launch/viewer_stl26.launch.py:33:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4 (comment):&#10;  # Define LaunchDescription variable&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/viewer_stl26.launch.py:34:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ld = LaunchDescription()&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/viewer_stl26.launch.py:36:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ld.add_action(ldlidar_launch)&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/viewer_stl26.launch.py:37:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ld.add_action(rviz2_node)&#10;"/>
+  </testcase>
+  <testcase
+    name="W293 (./launch/viewer_stl26.launch.py:38:1)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="blank line contains whitespace:&#10;  &#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/viewer_stl26.launch.py:39:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  return ld"/>
+  </testcase>
+  <testcase
+    name="W292 (./launch/viewer_stl26.launch.py:39:12)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="no newline at end of file:&#10;  return ld"/>
+  </testcase>
+  <testcase
+    name="I201 (./launch/viewer_stl27l.launch.py:3:1)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="Missing newline between import groups. 'from ament_index_python.packages import get_package_share_directory' is identified as Third Party and 'import os' is identified as Stdlib.:&#10;from ament_index_python.packages import get_package_share_directory&#10;"/>
+  </testcase>
+  <testcase
+    name="I100 (./launch/viewer_stl27l.launch.py:6:1)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="Import statements are in the wrong order. 'from launch.actions import IncludeLaunchDescription' should be before 'from launch_ros.actions import Node':&#10;from launch.actions import IncludeLaunchDescription&#10;"/>
+  </testcase>
+  <testcase
+    name="E302 (./launch/viewer_stl27l.launch.py:9:1)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="expected 2 blank lines, found 1:&#10;def generate_launch_description():&#10;"/>
+  </testcase>
+  <testcase
+    name="E114 (./launch/viewer_stl27l.launch.py:10:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4 (comment):&#10;  # RViZ2 settings&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/viewer_stl27l.launch.py:11:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  rviz2_config = os.path.join(&#10;"/>
+  </testcase>
+  <testcase
+    name="W293 (./launch/viewer_stl27l.launch.py:16:1)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="blank line contains whitespace:&#10;  &#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/viewer_stl27l.launch.py:17:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  rviz2_node = Node(&#10;"/>
+  </testcase>
+  <testcase
+    name="E231 (./launch/viewer_stl27l.launch.py:21:22)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="missing whitespace after ',':&#10;      arguments=['-d',rviz2_config],&#10;"/>
+  </testcase>
+  <testcase
+    name="E114 (./launch/viewer_stl27l.launch.py:25:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4 (comment):&#10;  #Include LDLidar launch file&#10;"/>
+  </testcase>
+  <testcase
+    name="E265 (./launch/viewer_stl27l.launch.py:25:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="block comment should start with '# ':&#10;  #Include LDLidar launch file&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/viewer_stl27l.launch.py:26:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ldlidar_launch = IncludeLaunchDescription(&#10;"/>
+  </testcase>
+  <testcase
+    name="E114 (./launch/viewer_stl27l.launch.py:33:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4 (comment):&#10;  # Define LaunchDescription variable&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/viewer_stl27l.launch.py:34:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ld = LaunchDescription()&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/viewer_stl27l.launch.py:36:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ld.add_action(ldlidar_launch)&#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/viewer_stl27l.launch.py:37:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  ld.add_action(rviz2_node)&#10;"/>
+  </testcase>
+  <testcase
+    name="W293 (./launch/viewer_stl27l.launch.py:38:1)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="blank line contains whitespace:&#10;  &#10;"/>
+  </testcase>
+  <testcase
+    name="E111 (./launch/viewer_stl27l.launch.py:39:3)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="indentation is not a multiple of 4:&#10;  return ld"/>
+  </testcase>
+  <testcase
+    name="W292 (./launch/viewer_stl27l.launch.py:39:12)"
+    classname="ldlidar.flake8"
+  >
+      <failure message="no newline at end of file:&#10;  return ld"/>
+  </testcase>
+  <system-out>Checked files:
+* ./launch/stl26.launch.py
+* ./launch/viewer_ld19.launch.py
+* ./launch/viewer_stl27l.launch.py
+* ./launch/stl06nnet.launch.py
+* ./launch/viewer_stl06p.launch.py
+* ./launch/stl19pnet.launch.py
+* ./launch/viewer_ld06.launch.py
+* ./launch/ld19.launch.py
+* ./launch/stl27l.launch.py
+* ./launch/stl06n.launch.py
+* ./launch/viewer_stl06n.launch.py
+* ./launch/viewer_stl26.launch.py
+* ./launch/ld06net.launch.py
+* ./launch/stl19p.launch.py
+* ./launch/stl06p.launch.py
+* ./launch/ld06.launch.py</system-out>
+</testsuite>

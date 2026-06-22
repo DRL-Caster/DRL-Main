@@ -1,0 +1,9 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+cachedir: /home/kenbio/sensor_ws/build/agv_control/.pytest_cache
+rootdir: /home/kenbio/sensor_ws/src/agv_control
+plugins: ament-xmllint-0.17.4, ament-lint-0.17.4, ament-pep257-0.17.4, ament-copyright-0.17.4, launch-testing-ros-0.26.11, launch-testing-3.4.10, ament-flake8-0.17.4, colcon-core-0.20.1, cov-4.1.0
+collected 0 items
+
+--- generated xml file: /home/kenbio/sensor_ws/build/agv_control/pytest.xml ----
+============================ no tests ran in 0.00s =============================

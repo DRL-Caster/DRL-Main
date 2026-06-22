@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: sensor-bringup
+Version: 0.0.1
+Summary: Combined bringup for lidar, IMU, and AGV control.
+Maintainer: kenbio
+Maintainer-email: kenbio@example.com
+License: MIT

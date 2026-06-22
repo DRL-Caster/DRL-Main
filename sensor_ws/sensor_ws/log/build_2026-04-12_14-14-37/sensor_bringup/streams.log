@@ -1,0 +1,24 @@
+[1.200s] Invoking command in '/home/kenbio/sensor_ws/src/sensor_bringup': AMENT_PREFIX_PATH=/home/kenbio/sensor_ws/install/ldlidar:/home/kenbio/sensor_ws/install/imu_ros2_device:/home/kenbio/sensor_ws/install/agv_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kenbio/sensor_ws/install/ldlidar:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/kenbio/sensor_ws/build/sensor_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kenbio/sensor_ws/install/sensor_bringup/lib/python3.12/site-packages:/home/kenbio/sensor_ws/install/imu_ros2_device/lib/python3.12/site-packages:/home/kenbio/sensor_ws/install/agv_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_bringup build --build-base /home/kenbio/sensor_ws/build/sensor_bringup/build install --record /home/kenbio/sensor_ws/build/sensor_bringup/install.log --single-version-externally-managed install_data
+[1.615s] running egg_info
+[1.644s] writing ../../build/sensor_bringup/sensor_bringup.egg-info/PKG-INFO
+[1.644s] writing dependency_links to ../../build/sensor_bringup/sensor_bringup.egg-info/dependency_links.txt
+[1.645s] writing entry points to ../../build/sensor_bringup/sensor_bringup.egg-info/entry_points.txt
+[1.645s] writing requirements to ../../build/sensor_bringup/sensor_bringup.egg-info/requires.txt
+[1.645s] writing top-level names to ../../build/sensor_bringup/sensor_bringup.egg-info/top_level.txt
+[1.704s] reading manifest file '../../build/sensor_bringup/sensor_bringup.egg-info/SOURCES.txt'
+[1.705s] writing manifest file '../../build/sensor_bringup/sensor_bringup.egg-info/SOURCES.txt'
+[1.706s] running build
+[1.706s] running build_py
+[1.706s] running install
+[1.715s] running install_lib
+[1.745s] running install_data
+[1.745s] copying launch/slam_bringup.launch.py -> /home/kenbio/sensor_ws/install/sensor_bringup/share/sensor_bringup/launch
+[1.745s] copying launch/nav_bringup.launch.py -> /home/kenbio/sensor_ws/install/sensor_bringup/share/sensor_bringup/launch
+[1.746s] running install_egg_info
+[1.780s] removing '/home/kenbio/sensor_ws/install/sensor_bringup/lib/python3.12/site-packages/sensor_bringup-0.0.1-py3.12.egg-info' (and everything under it)
+[1.780s] Copying ../../build/sensor_bringup/sensor_bringup.egg-info to /home/kenbio/sensor_ws/install/sensor_bringup/lib/python3.12/site-packages/sensor_bringup-0.0.1-py3.12.egg-info
+[1.782s] running install_scripts
+[1.988s] Installing command_odom script to /home/kenbio/sensor_ws/install/sensor_bringup/lib/sensor_bringup
+[1.988s] Installing imu_marker_viz script to /home/kenbio/sensor_ws/install/sensor_bringup/lib/sensor_bringup
+[1.988s] writing list of installed files to '/home/kenbio/sensor_ws/build/sensor_bringup/install.log'
+[2.028s] Invoked command in '/home/kenbio/sensor_ws/src/sensor_bringup' returned '0': AMENT_PREFIX_PATH=/home/kenbio/sensor_ws/install/ldlidar:/home/kenbio/sensor_ws/install/imu_ros2_device:/home/kenbio/sensor_ws/install/agv_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kenbio/sensor_ws/install/ldlidar:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/kenbio/sensor_ws/build/sensor_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kenbio/sensor_ws/install/sensor_bringup/lib/python3.12/site-packages:/home/kenbio/sensor_ws/install/imu_ros2_device/lib/python3.12/site-packages:/home/kenbio/sensor_ws/install/agv_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_bringup build --build-base /home/kenbio/sensor_ws/build/sensor_bringup/build install --record /home/kenbio/sensor_ws/build/sensor_bringup/install.log --single-version-externally-managed install_data

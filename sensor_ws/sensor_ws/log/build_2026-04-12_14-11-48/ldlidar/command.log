@@ -1,0 +1,4 @@
+Invoking command in '/home/kenbio/sensor_ws/build/ldlidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/kenbio/sensor_ws/build/ldlidar -- -j4 -l4
+Invoked command in '/home/kenbio/sensor_ws/build/ldlidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/kenbio/sensor_ws/build/ldlidar -- -j4 -l4
+Invoking command in '/home/kenbio/sensor_ws/build/ldlidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/kenbio/sensor_ws/build/ldlidar
+Invoked command in '/home/kenbio/sensor_ws/build/ldlidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/kenbio/sensor_ws/build/ldlidar

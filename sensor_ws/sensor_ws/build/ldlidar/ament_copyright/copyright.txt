@@ -1,0 +1,26 @@
+-- run_test.py: invoking following command in '/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar':
+ - /opt/ros/jazzy/bin/ament_copyright --xunit-file /home/kenbio/sensor_ws/build/ldlidar/test_results/ldlidar/copyright.xunit.xml
+
+include/ros2_api.h: could not find copyright notice
+launch/ld06.launch.py: could not find copyright notice
+launch/ld06net.launch.py: could not find copyright notice
+launch/ld19.launch.py: could not find copyright notice
+launch/stl06n.launch.py: could not find copyright notice
+launch/stl06nnet.launch.py: could not find copyright notice
+launch/stl06p.launch.py: could not find copyright notice
+launch/stl19p.launch.py: could not find copyright notice
+launch/stl19pnet.launch.py: could not find copyright notice
+launch/stl26.launch.py: could not find copyright notice
+launch/stl27l.launch.py: could not find copyright notice
+launch/viewer_ld06.launch.py: could not find copyright notice
+launch/viewer_ld19.launch.py: could not find copyright notice
+launch/viewer_stl06n.launch.py: could not find copyright notice
+launch/viewer_stl06p.launch.py: could not find copyright notice
+launch/viewer_stl26.launch.py: could not find copyright notice
+launch/viewer_stl27l.launch.py: could not find copyright notice
+src/ros2_node/main.cpp: could not find copyright notice
+18 errors, checked 18 files
+
+
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/kenbio/sensor_ws/build/ldlidar/test_results/ldlidar/copyright.xunit.xml'

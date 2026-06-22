@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="ldlidar.copyright"
+  tests="18"
+  errors="0"
+  failures="18"
+  time="0.001"
+>
+  <testcase
+    name="include/ros2_api.h"
+    classname="ldlidar.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="launch/ld06.launch.py"
+    classname="ldlidar.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="launch/ld06net.launch.py"
+    classname="ldlidar.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="launch/ld19.launch.py"
+    classname="ldlidar.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="launch/stl06n.launch.py"
+    classname="ldlidar.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="launch/stl06nnet.launch.py"
+    classname="ldlidar.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="launch/stl06p.launch.py"
+    classname="ldlidar.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="launch/stl19p.launch.py"
+    classname="ldlidar.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="launch/stl19pnet.launch.py"
+    classname="ldlidar.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="launch/stl26.launch.py"
+    classname="ldlidar.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="launch/stl27l.launch.py"
+    classname="ldlidar.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="launch/viewer_ld06.launch.py"
+    classname="ldlidar.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="launch/viewer_ld19.launch.py"
+    classname="ldlidar.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="launch/viewer_stl06n.launch.py"
+    classname="ldlidar.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="launch/viewer_stl06p.launch.py"
+    classname="ldlidar.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="launch/viewer_stl26.launch.py"
+    classname="ldlidar.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="launch/viewer_stl27l.launch.py"
+    classname="ldlidar.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="src/ros2_node/main.cpp"
+    classname="ldlidar.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <system-out>Checked files:
+* include/ros2_api.h
+* launch/ld06.launch.py
+* launch/ld06net.launch.py
+* launch/ld19.launch.py
+* launch/stl06n.launch.py
+* launch/stl06nnet.launch.py
+* launch/stl06p.launch.py
+* launch/stl19p.launch.py
+* launch/stl19pnet.launch.py
+* launch/stl26.launch.py
+* launch/stl27l.launch.py
+* launch/viewer_ld06.launch.py
+* launch/viewer_ld19.launch.py
+* launch/viewer_stl06n.launch.py
+* launch/viewer_stl06p.launch.py
+* launch/viewer_stl26.launch.py
+* launch/viewer_stl27l.launch.py
+* src/ros2_node/main.cpp</system-out>
+</testsuite>

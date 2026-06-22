@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="ldlidar.lint_cmake"
+  tests="7"
+  errors="0"
+  failures="7"
+  time="0.001"
+>
+  <testcase
+    name="whitespace/eol (CMakeLists.txt:53)"
+    classname="ldlidar.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (CMakeLists.txt:54)"
+    classname="ldlidar.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (CMakeLists.txt:55)"
+    classname="ldlidar.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (CMakeLists.txt:56)"
+    classname="ldlidar.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (CMakeLists.txt:57)"
+    classname="ldlidar.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (CMakeLists.txt:58)"
+    classname="ldlidar.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <testcase
+    name="whitespace/eol (CMakeLists.txt:59)"
+    classname="ldlidar.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <system-out>Checked files:
+* CMakeLists.txt</system-out>
+</testsuite>

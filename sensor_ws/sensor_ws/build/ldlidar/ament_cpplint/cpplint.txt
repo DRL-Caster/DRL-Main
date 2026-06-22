@@ -1,0 +1,83 @@
+-- run_test.py: invoking following command in '/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar':
+ - /opt/ros/jazzy/bin/ament_cpplint --xunit-file /home/kenbio/sensor_ws/build/ldlidar/test_results/ldlidar/cpplint.xunit.xml
+
+/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/include/ros2_api.h:21:  #ifndef header guard has wrong style, please use: ROS2_API_H_  [build/header_guard] [5]
+/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/include/ros2_api.h:39:  #endif line should be "#endif  // ROS2_API_H_"  [build/header_guard] [5]
+/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/include/ros2_api.h:26:  Found C++ system header after other header. Should be: ros2_api.h, c system, c++ system, other.  [build/include_order] [4]
+/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/include/ros2_api.h:39:  At least two spaces is best between code and comments  [whitespace/comments] [2]
+/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/include/ros2_api.h:39:  Should have a space between // and comment  [whitespace/comments] [4]
+/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/src/ros2_node/main.cpp:22:  Include the directory when naming .h files  [build/include_subdir] [4]
+/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/src/ros2_node/main.cpp:23:  Include the directory when naming .h files  [build/include_subdir] [4]
+/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/src/ros2_node/main.cpp:25:  Lines should be <= 100 characters long  [whitespace/line_length] [2]
+/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/src/ros2_node/main.cpp:26:  Lines should be <= 100 characters long  [whitespace/line_length] [2]
+/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/src/ros2_node/main.cpp:32:  At least two spaces is best between code and comments  [whitespace/comments] [2]
+/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/src/ros2_node/main.cpp:34:  Tab found; better to use spaces  [whitespace/tab] [1]
+/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/src/ros2_node/main.cpp:35:  Tab found; better to use spaces  [whitespace/tab] [1]
+/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/src/ros2_node/main.cpp:42:  Tab found; better to use spaces  [whitespace/tab] [1]
+/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/src/ros2_node/main.cpp:49:  Line ends in whitespace.  Consider deleting these extra spaces.  [whitespace/end_of_line] [4]
+/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/src/ros2_node/main.cpp:55:  Line ends in whitespace.  Consider deleting these extra spaces.  [whitespace/end_of_line] [4]
+/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/src/ros2_node/main.cpp:60:  Lines should be <= 100 characters long  [whitespace/line_length] [2]
+/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/src/ros2_node/main.cpp:63:  Should have a space between // and comment  [whitespace/comments] [4]
+/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/src/ros2_node/main.cpp:64:  Should have a space between // and comment  [whitespace/comments] [4]
+/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/src/ros2_node/main.cpp:77:  Lines should be <= 100 characters long  [whitespace/line_length] [2]
+/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/src/ros2_node/main.cpp:80:  Should have a space between // and comment  [whitespace/comments] [4]
+/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/src/ros2_node/main.cpp:81:  Should have a space between // and comment  [whitespace/comments] [4]
+/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/src/ros2_node/main.cpp:89:  Line ends in whitespace.  Consider deleting these extra spaces.  [whitespace/end_of_line] [4]
+/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/src/ros2_node/main.cpp:103:  Lines should be <= 100 characters long  [whitespace/line_length] [2]
+/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/src/ros2_node/main.cpp:107:  Line ends in whitespace.  Consider deleting these extra spaces.  [whitespace/end_of_line] [4]
+/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/src/ros2_node/main.cpp:111:  Should have a space between // and comment  [whitespace/comments] [4]
+/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/src/ros2_node/main.cpp:112:  Should have a space between // and comment  [whitespace/comments] [4]
+/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/src/ros2_node/main.cpp:113:  Lines should be <= 100 characters long  [whitespace/line_length] [2]
+/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/src/ros2_node/main.cpp:114:  Lines should be <= 100 characters long  [whitespace/line_length] [2]
+/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/src/ros2_node/main.cpp:138:  Lines should be <= 100 characters long  [whitespace/line_length] [2]
+/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/src/ros2_node/main.cpp:138:  At least two spaces is best between code and comments  [whitespace/comments] [2]
+/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/src/ros2_node/main.cpp:150:  Lines should be <= 100 characters long  [whitespace/line_length] [2]
+/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/src/ros2_node/main.cpp:150:  Should have a space between // and comment  [whitespace/comments] [4]
+/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/src/ros2_node/main.cpp:151:  Lines should be <= 100 characters long  [whitespace/line_length] [2]
+/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/src/ros2_node/main.cpp:151:  Missing space after ,  [whitespace/comma] [3]
+/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/src/ros2_node/main.cpp:167:  Line ends in whitespace.  Consider deleting these extra spaces.  [whitespace/end_of_line] [4]
+/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/src/ros2_node/main.cpp:169:  Line ends in whitespace.  Consider deleting these extra spaces.  [whitespace/end_of_line] [4]
+/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/src/ros2_node/main.cpp:170:  At least two spaces is best between code and comments  [whitespace/comments] [2]
+/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/src/ros2_node/main.cpp:170:  Should have a space between // and comment  [whitespace/comments] [4]
+/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/src/ros2_node/main.cpp:177:  Line ends in whitespace.  Consider deleting these extra spaces.  [whitespace/end_of_line] [4]
+/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/src/ros2_node/main.cpp:189:  Lines should be <= 100 characters long  [whitespace/line_length] [2]
+/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/src/ros2_node/main.cpp:211:  Lines should be <= 100 characters long  [whitespace/line_length] [2]
+/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/src/ros2_node/main.cpp:212:  Lines should be <= 100 characters long  [whitespace/line_length] [2]
+/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/src/ros2_node/main.cpp:233:  Using C-style cast.  Use static_cast<float>(...) instead  [readability/casting] [4]
+/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/src/ros2_node/main.cpp:247:  Using C-style cast.  Use static_cast<double>(...) instead  [readability/casting] [4]
+/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/src/ros2_node/main.cpp:255:  Line ends in whitespace.  Consider deleting these extra spaces.  [whitespace/end_of_line] [4]
+/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/src/ros2_node/main.cpp:258:  Lines should be <= 100 characters long  [whitespace/line_length] [2]
+/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/src/ros2_node/main.cpp:258:  At least two spaces is best between code and comments  [whitespace/comments] [2]
+/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/src/ros2_node/main.cpp:259:  Line ends in whitespace.  Consider deleting these extra spaces.  [whitespace/end_of_line] [4]
+/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/src/ros2_node/main.cpp:263:  Lines should be <= 100 characters long  [whitespace/line_length] [2]
+/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/src/ros2_node/main.cpp:263:  At least two spaces is best between code and comments  [whitespace/comments] [2]
+/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/src/ros2_node/main.cpp:273:  Line ends in whitespace.  Consider deleting these extra spaces.  [whitespace/end_of_line] [4]
+/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/src/ros2_node/main.cpp:274:  At least two spaces is best between code and comments  [whitespace/comments] [2]
+/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/src/ros2_node/main.cpp:278:  Line ends in whitespace.  Consider deleting these extra spaces.  [whitespace/end_of_line] [4]
+/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/src/ros2_node/main.cpp:278:  Lines should be <= 100 characters long  [whitespace/line_length] [2]
+/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/src/ros2_node/main.cpp:287:  At least two spaces is best between code and comments  [whitespace/comments] [2]
+/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/src/ros2_node/main.cpp:298:  At least two spaces is best between code and comments  [whitespace/comments] [2]
+/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/src/ros2_node/main.cpp:310:  Line ends in whitespace.  Consider deleting these extra spaces.  [whitespace/end_of_line] [4]
+/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/src/ros2_node/main.cpp:314:  Line ends in whitespace.  Consider deleting these extra spaces.  [whitespace/end_of_line] [4]
+Category 'build/header_guard' errors found: 2
+Category 'build/include_order' errors found: 1
+Category 'build/include_subdir' errors found: 2
+Category 'readability/casting' errors found: 2
+Category 'whitespace/comma' errors found: 1
+Category 'whitespace/comments' errors found: 18
+Category 'whitespace/end_of_line' errors found: 13
+Category 'whitespace/line_length' errors found: 16
+Category 'whitespace/tab' errors found: 3
+Total errors found: 58
+Using '--root=/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/include' argument
+
+Done processing /home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/include/ros2_api.h
+
+Using '--root=/home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/src' argument
+
+Done processing /home/kenbio/sensor_ws/src/ldlidar_ros2/ldlidar/src/ros2_node/main.cpp
+
+
+
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/kenbio/sensor_ws/build/ldlidar/test_results/ldlidar/cpplint.xunit.xml'

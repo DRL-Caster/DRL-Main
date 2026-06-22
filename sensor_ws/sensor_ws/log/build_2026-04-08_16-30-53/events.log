@@ -1,0 +1,91 @@
+[0.000000] (-) TimerEvent: {}
+[0.000140] (-) JobUnselected: {'identifier': 'imu_ros2_device'}
+[0.000751] (-) JobUnselected: {'identifier': 'ldlidar'}
+[0.000784] (agv_control) JobQueued: {'identifier': 'agv_control', 'dependencies': OrderedDict()}
+[0.000885] (sensor_bringup) JobQueued: {'identifier': 'sensor_bringup', 'dependencies': OrderedDict({'agv_control': '/home/kenbio/sensor_ws/install/agv_control', 'imu_ros2_device': '/home/kenbio/sensor_ws/install/imu_ros2_device', 'ldlidar': '/home/kenbio/sensor_ws/install/ldlidar'})}
+[0.000916] (agv_control) JobStarted: {'identifier': 'agv_control'}
+[0.099518] (-) TimerEvent: {}
+[0.199839] (-) TimerEvent: {}
+[0.300097] (-) TimerEvent: {}
+[0.400400] (-) TimerEvent: {}
+[0.500669] (-) TimerEvent: {}
+[0.600965] (-) TimerEvent: {}
+[0.701225] (-) TimerEvent: {}
+[0.801498] (-) TimerEvent: {}
+[0.901761] (-) TimerEvent: {}
+[1.002030] (-) TimerEvent: {}
+[1.083468] (agv_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/agv_control', 'build', '--build-base', '/home/kenbio/sensor_ws/build/agv_control/build', 'install', '--record', '/home/kenbio/sensor_ws/build/agv_control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/kenbio/sensor_ws/src/agv_control', 'env': {'CODEX_CI': '1', 'USER': 'kenbio', 'SSH_CLIENT': '172.20.10.7 55829 22', 'STARSHIP_SHELL': 'zsh', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/kenbio', 'OLDPWD': '/home/kenbio', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'PAGER': 'cat', 'LC_CTYPE': 'C.UTF-8', 'NO_COLOR': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': '', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'kenbio', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'dumb', 'XDG_SESSION_ID': '6', 'PATH': '/home/kenbio/.local/bin:/home/kenbio/.codex/tmp/arg0/codex-arg06ZsWzi:/home/kenbio/.npm-global/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/path:/home/kenbio/.local/bin:/home/kenbio/.npm-global/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'CODEX_SANDBOX_NETWORK_DISABLED': '1', 'LANG': 'C.UTF-8', 'GH_PAGER': 'cat', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'CODEX_THREAD_ID': '019d6c08-da3e-7982-ad88-340965d7606d', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'GIT_PAGER': 'cat', 'PWD': '/home/kenbio/sensor_ws/build/agv_control', 'LC_ALL': 'C.UTF-8', 'SSH_CONNECTION': '172.20.10.7 55829 172.20.10.9 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'STARSHIP_SESSION_KEY': '1666220712090662', 'PYTHONPATH': '/home/kenbio/sensor_ws/build/agv_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kenbio/sensor_ws/install/agv_control/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CODEX_MANAGED_BY_NPM': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.102129] (-) TimerEvent: {}
+[1.202415] (-) TimerEvent: {}
+[1.302691] (-) TimerEvent: {}
+[1.402931] (-) TimerEvent: {}
+[1.480629] (agv_control) StdoutLine: {'line': b'running egg_info\n'}
+[1.503034] (-) TimerEvent: {}
+[1.509913] (agv_control) StdoutLine: {'line': b'writing ../../build/agv_control/agv_control.egg-info/PKG-INFO\n'}
+[1.510318] (agv_control) StdoutLine: {'line': b'writing dependency_links to ../../build/agv_control/agv_control.egg-info/dependency_links.txt\n'}
+[1.510681] (agv_control) StdoutLine: {'line': b'writing entry points to ../../build/agv_control/agv_control.egg-info/entry_points.txt\n'}
+[1.510938] (agv_control) StdoutLine: {'line': b'writing requirements to ../../build/agv_control/agv_control.egg-info/requires.txt\n'}
+[1.511198] (agv_control) StdoutLine: {'line': b'writing top-level names to ../../build/agv_control/agv_control.egg-info/top_level.txt\n'}
+[1.575549] (agv_control) StdoutLine: {'line': b"reading manifest file '../../build/agv_control/agv_control.egg-info/SOURCES.txt'\n"}
+[1.576634] (agv_control) StdoutLine: {'line': b"writing manifest file '../../build/agv_control/agv_control.egg-info/SOURCES.txt'\n"}
+[1.576938] (agv_control) StdoutLine: {'line': b'running build\n'}
+[1.577260] (agv_control) StdoutLine: {'line': b'running build_py\n'}
+[1.577498] (agv_control) StdoutLine: {'line': b'copying agv_control/agv_bridge.py -> /home/kenbio/sensor_ws/build/agv_control/build/lib/agv_control\n'}
+[1.577915] (agv_control) StdoutLine: {'line': b'running install\n'}
+[1.586295] (agv_control) StdoutLine: {'line': b'running install_lib\n'}
+[1.603134] (-) TimerEvent: {}
+[1.614100] (agv_control) StdoutLine: {'line': b'copying /home/kenbio/sensor_ws/build/agv_control/build/lib/agv_control/agv_bridge.py -> /home/kenbio/sensor_ws/install/agv_control/lib/python3.12/site-packages/agv_control\n'}
+[1.615001] (agv_control) StdoutLine: {'line': b'byte-compiling /home/kenbio/sensor_ws/install/agv_control/lib/python3.12/site-packages/agv_control/agv_bridge.py to agv_bridge.cpython-312.pyc\n'}
+[1.619449] (agv_control) StdoutLine: {'line': b'running install_data\n'}
+[1.619779] (agv_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.651145] (agv_control) StdoutLine: {'line': b"removing '/home/kenbio/sensor_ws/install/agv_control/lib/python3.12/site-packages/agv_control-0.0.1-py3.12.egg-info' (and everything under it)\n"}
+[1.651593] (agv_control) StdoutLine: {'line': b'Copying ../../build/agv_control/agv_control.egg-info to /home/kenbio/sensor_ws/install/agv_control/lib/python3.12/site-packages/agv_control-0.0.1-py3.12.egg-info\n'}
+[1.652621] (agv_control) StdoutLine: {'line': b'running install_scripts\n'}
+[1.703225] (-) TimerEvent: {}
+[1.803471] (-) TimerEvent: {}
+[1.847194] (agv_control) StdoutLine: {'line': b'Installing agv_bridge script to /home/kenbio/sensor_ws/install/agv_control/lib/agv_control\n'}
+[1.847458] (agv_control) StdoutLine: {'line': b'Installing keyboard_teleop script to /home/kenbio/sensor_ws/install/agv_control/lib/agv_control\n'}
+[1.847888] (agv_control) StdoutLine: {'line': b"writing list of installed files to '/home/kenbio/sensor_ws/build/agv_control/install.log'\n"}
+[1.885068] (agv_control) CommandEnded: {'returncode': 0}
+[1.899320] (agv_control) JobEnded: {'identifier': 'agv_control', 'rc': 0}
+[1.900799] (sensor_bringup) JobStarted: {'identifier': 'sensor_bringup'}
+[1.904125] (-) TimerEvent: {}
+[2.004860] (-) TimerEvent: {}
+[2.105154] (-) TimerEvent: {}
+[2.205451] (-) TimerEvent: {}
+[2.305695] (-) TimerEvent: {}
+[2.405987] (-) TimerEvent: {}
+[2.506263] (-) TimerEvent: {}
+[2.606567] (-) TimerEvent: {}
+[2.706857] (-) TimerEvent: {}
+[2.807147] (-) TimerEvent: {}
+[2.907433] (-) TimerEvent: {}
+[3.005934] (sensor_bringup) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/sensor_bringup', 'build', '--build-base', '/home/kenbio/sensor_ws/build/sensor_bringup/build', 'install', '--record', '/home/kenbio/sensor_ws/build/sensor_bringup/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/kenbio/sensor_ws/src/sensor_bringup', 'env': {'CODEX_CI': '1', 'USER': 'kenbio', 'SSH_CLIENT': '172.20.10.7 55829 22', 'STARSHIP_SHELL': 'zsh', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/kenbio', 'OLDPWD': '/home/kenbio', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'PAGER': 'cat', 'LC_CTYPE': 'C.UTF-8', 'NO_COLOR': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': '', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'kenbio', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'dumb', 'XDG_SESSION_ID': '6', 'PATH': '/home/kenbio/.local/bin:/home/kenbio/.codex/tmp/arg0/codex-arg06ZsWzi:/home/kenbio/.npm-global/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/path:/home/kenbio/.local/bin:/home/kenbio/.npm-global/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'CODEX_SANDBOX_NETWORK_DISABLED': '1', 'LANG': 'C.UTF-8', 'GH_PAGER': 'cat', 'AMENT_PREFIX_PATH': '/home/kenbio/sensor_ws/install/ldlidar:/home/kenbio/sensor_ws/install/imu_ros2_device:/home/kenbio/sensor_ws/install/agv_control:/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'CODEX_THREAD_ID': '019d6c08-da3e-7982-ad88-340965d7606d', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'GIT_PAGER': 'cat', 'PWD': '/home/kenbio/sensor_ws/build/sensor_bringup', 'LC_ALL': 'C.UTF-8', 'SSH_CONNECTION': '172.20.10.7 55829 172.20.10.9 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'STARSHIP_SESSION_KEY': '1666220712090662', 'PYTHONPATH': '/home/kenbio/sensor_ws/build/sensor_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kenbio/sensor_ws/install/sensor_bringup/lib/python3.12/site-packages:/home/kenbio/sensor_ws/install/imu_ros2_device/lib/python3.12/site-packages:/home/kenbio/sensor_ws/install/agv_control/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CODEX_MANAGED_BY_NPM': '1', 'CMAKE_PREFIX_PATH': '/home/kenbio/sensor_ws/install/ldlidar:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[3.007498] (-) TimerEvent: {}
+[3.107714] (-) TimerEvent: {}
+[3.208012] (-) TimerEvent: {}
+[3.308313] (-) TimerEvent: {}
+[3.370115] (sensor_bringup) StdoutLine: {'line': b'running egg_info\n'}
+[3.400258] (sensor_bringup) StdoutLine: {'line': b'writing ../../build/sensor_bringup/sensor_bringup.egg-info/PKG-INFO\n'}
+[3.400852] (sensor_bringup) StdoutLine: {'line': b'writing dependency_links to ../../build/sensor_bringup/sensor_bringup.egg-info/dependency_links.txt\n'}
+[3.401149] (sensor_bringup) StdoutLine: {'line': b'writing requirements to ../../build/sensor_bringup/sensor_bringup.egg-info/requires.txt\n'}
+[3.401254] (sensor_bringup) StdoutLine: {'line': b'writing top-level names to ../../build/sensor_bringup/sensor_bringup.egg-info/top_level.txt\n'}
+[3.408424] (-) TimerEvent: {}
+[3.456082] (sensor_bringup) StdoutLine: {'line': b"reading manifest file '../../build/sensor_bringup/sensor_bringup.egg-info/SOURCES.txt'\n"}
+[3.456966] (sensor_bringup) StdoutLine: {'line': b"writing manifest file '../../build/sensor_bringup/sensor_bringup.egg-info/SOURCES.txt'\n"}
+[3.457246] (sensor_bringup) StdoutLine: {'line': b'running build\n'}
+[3.457454] (sensor_bringup) StdoutLine: {'line': b'running build_py\n'}
+[3.457670] (sensor_bringup) StdoutLine: {'line': b'running install\n'}
+[3.465654] (sensor_bringup) StdoutLine: {'line': b'running install_lib\n'}
+[3.493061] (sensor_bringup) StdoutLine: {'line': b'running install_data\n'}
+[3.493298] (sensor_bringup) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.508511] (-) TimerEvent: {}
+[3.521886] (sensor_bringup) StdoutLine: {'line': b"removing '/home/kenbio/sensor_ws/install/sensor_bringup/lib/python3.12/site-packages/sensor_bringup-0.0.1-py3.12.egg-info' (and everything under it)\n"}
+[3.522222] (sensor_bringup) StdoutLine: {'line': b'Copying ../../build/sensor_bringup/sensor_bringup.egg-info to /home/kenbio/sensor_ws/install/sensor_bringup/lib/python3.12/site-packages/sensor_bringup-0.0.1-py3.12.egg-info\n'}
+[3.523195] (sensor_bringup) StdoutLine: {'line': b'running install_scripts\n'}
+[3.608641] (-) TimerEvent: {}
+[3.704510] (sensor_bringup) StdoutLine: {'line': b"writing list of installed files to '/home/kenbio/sensor_ws/build/sensor_bringup/install.log'\n"}
+[3.708788] (-) TimerEvent: {}
+[3.744690] (sensor_bringup) CommandEnded: {'returncode': 0}
+[3.753108] (sensor_bringup) JobEnded: {'identifier': 'sensor_bringup', 'rc': 0}
+[3.754122] (-) EventReactorShutdown: {}

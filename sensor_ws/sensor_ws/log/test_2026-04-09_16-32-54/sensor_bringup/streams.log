@@ -1,0 +1,11 @@
+[0.106s] Invoking command in '/home/kenbio/sensor_ws/src/sensor_bringup': AMENT_PREFIX_PATH=/home/kenbio/sensor_ws/install/sensor_bringup:/home/kenbio/sensor_ws/install/imu_ros2_device:/home/kenbio/sensor_ws/install/agv_control:/home/kenbio/sensor_ws/install/ldlidar:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTEST_ADDOPTS=--tb=short --junit-xml=/home/kenbio/sensor_ws/build/sensor_bringup/pytest.xml --junit-prefix=sensor_bringup -o cache_dir=/home/kenbio/sensor_ws/build/sensor_bringup/.pytest_cache PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m pytest
+[0.266s] ============================= test session starts ==============================
+[0.266s] platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+[0.266s] cachedir: /home/kenbio/sensor_ws/build/sensor_bringup/.pytest_cache
+[0.266s] rootdir: /home/kenbio/sensor_ws/src/sensor_bringup
+[0.266s] plugins: ament-xmllint-0.17.4, ament-lint-0.17.4, ament-pep257-0.17.4, ament-copyright-0.17.4, launch-testing-ros-0.26.11, launch-testing-3.4.10, ament-flake8-0.17.4, colcon-core-0.20.1, cov-4.1.0
+[0.266s] collected 0 items
+[0.267s] 
+[0.267s] -- generated xml file: /home/kenbio/sensor_ws/build/sensor_bringup/pytest.xml --
+[0.267s] ============================ no tests ran in 0.00s =============================
+[0.286s] Invoked command in '/home/kenbio/sensor_ws/src/sensor_bringup' returned '5': AMENT_PREFIX_PATH=/home/kenbio/sensor_ws/install/sensor_bringup:/home/kenbio/sensor_ws/install/imu_ros2_device:/home/kenbio/sensor_ws/install/agv_control:/home/kenbio/sensor_ws/install/ldlidar:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTEST_ADDOPTS=--tb=short --junit-xml=/home/kenbio/sensor_ws/build/sensor_bringup/pytest.xml --junit-prefix=sensor_bringup -o cache_dir=/home/kenbio/sensor_ws/build/sensor_bringup/.pytest_cache PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m pytest
